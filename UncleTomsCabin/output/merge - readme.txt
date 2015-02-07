@@ -1,4 +1,4 @@
-merge.rb its ein Ruby script, zum zusammenfügen der geparsten chapter (chapterxx.xml) in die fertige XML Datei.
+merge.rb ist ein Ruby Skript, zum zusammenfügen der geparsten chapter (chapterxx.xml) in die fertige XML Datei.
 
 Vorraussetzungen:
 
@@ -23,26 +23,26 @@ Vorraussetzungen:
 3.	Die zusätzlich verwendeten Bibliotheken(gems)
 	
 	-- Nokogiri --
-	wird durch das script selbst installiert falls noch nicht voranden
+	wird durch das script selbst installiert falls noch nicht vorhanden
 
 	Weitere Informationen:
 	http://www.nokogiri.org/tutorials/installing_nokogiri.html
 
 -------- Verwendung ---------
 
-1. In der console in den Ordner des scripts navigieren
-2. Script ausführen mit:
+1. In der console in den Ordner des Skripts navigieren
+2. SKript ausführen mit:
 
 	ruby merge.rb -f "Dateiname" -d "Pfadangabe"
 
-Das Script benötigt die Argumente "-f" gefolgt von dem Dateinamen der XML-Datei in welche die chapters eingefuegt werden sollen
+Das Skript benötigt die Argumente "-f" gefolgt von dem Dateinamen der XML-Datei in welche die chapters eingefuegt werden sollen
 In unserem Fall die "buchtitel_zwischen.xml" Dateien
 
-Außerdem benötigt das Script die Argumente -d "Pfadangabe" 
+Außerdem benötigt das Script die Argumente -d und "Pfadangabe" 
 Die Pfadangabe bezieht sich hier auf den Ordner indem die geparsten xml-Dateien liegen
 In unserem Fall "../dh-Projekt-Gruppe1/Buchtitel/output/chapters/annotated/"
 
-Das Script erstellt dann aus den einzelnen Kapiteln und der zwischen.xml im selben Ordner die fertige XML-Datei 
+Das Skript erstellt dann aus den einzelnen Kapiteln und der zwischen.xml im selben Ordner die fertige XML-Datei 
 
 
 

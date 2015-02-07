@@ -1,4 +1,4 @@
-﻿split.rb its ein Ruby script, zum extrahieren der einzelnen chapter elemente aus einer XML Datei.
+﻿split.rb ist ein Ruby Skript, zum extrahieren der einzelnen chapter Elemente aus einer XML Datei.
 
 Vorraussetzungen:
 
@@ -23,19 +23,19 @@ Vorraussetzungen:
 3.	Die zusätzlich verwendeten Bibliotheken(gems)
 	
 	-- Nokogiri --
-	wird durch das script selbst installiert falls noch nicht voranden
+	wird durch das script selbst installiert falls noch nicht vorhanden
 
 	Weitere Informationen:
 	http://www.nokogiri.org/tutorials/installing_nokogiri.html
 
 -------- Verwendung ---------
 
-1. In der console in den Ordner des scripts navigieren
-2. Script ausführen mit:
+1. In der Konsole in den Ordner des Skripts navigieren
+2. Skript ausführen mit:
 
 	ruby split.rb -f "Dateiname"
 
-Das script benötigt die Argument "-f" gefolgt von dem Dateinamen der zu bearbeitenten XML-Datei
+Das Skript benötigt die Argument "-f" gefolgt von dem Dateinamen der zu bearbeitenten XML-Datei
 
 	ruby split.rb -f test.xml
 
@@ -44,7 +44,7 @@ Falls sich diese nicht im gleichen Ordner befindet, muss der Pfad mit angegeben 
 	ruby split.rb -f /home/einPfad/test.xml
 
 
-Das Script erstellt dann im selben Ordner die einzelnen chapter.txt Dateien
+Das Skript erstellt dann im selben Ordner die einzelnen chapter.txt Dateien
 
 
 

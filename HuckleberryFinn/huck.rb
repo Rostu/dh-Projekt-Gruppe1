@@ -30,7 +30,7 @@ end
 if ARGV.size == 2 && ARGV[0] == "-f"
 	$file = ARGV[1] 	
 
-	# Öffnen der Textdatei und schreiben in eine String Variable
+	#open the text file ald save as string
 	text = ""
 	File.open($file, "r") do |f|
 	  f.each_line do |line|
@@ -38,20 +38,20 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	  end
 	end
 
-	# Sicherstellen, dass der Strinbg utf-8 kodieert ist
+	#ensure utf-8 encoding
 	begin
   		text.encode("UTF-8")
 	rescue Encoding::UndefinedConversionError
   	# ...
 	end
 
-	# Bereinigen des Textes und hinzufügen des xml markups (hier noch String)
+	#first clear textjunk and add xml tags 
 	text = "<document title='HUCKLEBERRY FINN' author='Mark Twain'>\n<chapter>\n<paragraph>\n" + text + "\n</paragraph>\n</chapter>\n</document>"
 	altered_text = text.gsub!(/\s{4,}CHAPTER \w{1,}.\s{1,}/,"\n</paragraph>\n</chapter>\n<chapter>\n<paragraph>\n")
 	altered_text.gsub!("\r\n\r\n","\n</paragraph>\n<paragraph>\n")
 
-	# Vergabe der id's an die chapter
-	# Bei diesem Schritt wird der String in ein xml doc konvertiert und auf Wohlgeformtheit geprüft 
+	#adding the id attribiute to the chapters tag
+	#konverting the string to a xml doc and check if well formed 
 	counter = 1
 	doc = Nokogiri::XML(altered_text)
 	doc.encoding = 'UTF-8'
@@ -59,25 +59,25 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	        chapter["id"] = counter
 		counter = counter + 1
 	end
-
+	#clearing the newlines of each paragraph and deleting the paragraph tags if needed
 	doc.search('//document//chapter//paragraph').each do |para|
 	        zwischen = para.content
 		zwischen.gsub!("\n", " ")
 		para.content = zwischen
-		# die nächsten beiden Zeilen löschen die paragraph tags aus dem xml markup		
+		#next two lines delete the paragraph tags
 		zwischen2 = para.content
 		para.replace(zwischen2)
 	end
 
-	# Speichern als xml-Datei 	
+	# save as xml file	
 	File.open('HuckleberryFinn_zwischen.xml','w') {|f| doc.write_xml_to f}	
 
-	# Speichern als txt-Datei 
+	# save as txt file 
 	#File.open("HuckFinn.txt", 'w') do |file|
 	#   file.puts(text)
 	#end
 
-	#Zusätzlich speichern aller chapter als einzelne txt-Dateien
+	#save each chapter as txt file
 	#chapternumber = 1
 	#doc.search('//document//chapter').each do |chapter|
 	#        File.open("chapter"+chapternumber.to_s+".txt" , 'w') do |file|

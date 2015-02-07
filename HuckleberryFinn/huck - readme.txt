@@ -30,7 +30,7 @@ Daran wird noch gearbeitet, aber Vorläufig kann aus diesem Grund keine Windows 
 3.	Die zusätzlich verwendeten Bibliotheken(gems)
 	
 	-- Nokogiri --
-	wird durch das script selbst installiert falls noch nicht voranden
+	wird durch das script selbst installiert falls noch nicht vorhanden
 
 	Weitere Informationen:
 	http://www.nokogiri.org/tutorials/installing_nokogiri.html
