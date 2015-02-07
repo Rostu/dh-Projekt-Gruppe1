@@ -15,11 +15,15 @@ def load_gem(name, version=nil)
 
   require name
 end
+beginningTime = Time.now
+
+
 #two ruby gems that save a lot of work 
 #nokogiri is an HTML, XML, SAX, and Reader parser 
 load_gem 'nokogiri'
 #yomu is a ruby gem that includes librarys to read and convert pdf files
 load_gem 'yomu'
+puts "additional libraries installed and required [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 #test for arguments
 if ARGV.size == 0 || ARGV[0] == "-h" || ARGV.size > 2 || ARGV.size == 1 
@@ -33,7 +37,7 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	
 	yomu = Yomu.new $file
 	text = yomu.text
-	
+	puts "File opened and converted [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 	#saves plain_text output from the pdf converter to txt file 
 	#was used to check the output while working on the file
 	#File.open($file[0..-5]+"_plain.txt", 'w') do |file|
@@ -110,12 +114,14 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	text.gsub!(/\Wparagraph id=\W\d{1,}\W\W/,"")
 	text.gsub!(/\W\Wparagraph\W\W/,"\n")
 	text.gsub!("\n\n","\n") 
-	
+	puts "Text cleared, xml markup done [#{Time.now.round(3) - beginningTime.round(3)} sec]"
+
 	#save altered_text to xml file 
 	File.open($file[0..-5]+"_zwischen.xml", 'w') do |file|
 		#file.puts(doc.to_xml)
 		file.puts(text)
 	end
+	puts "Xml file: "+$file[0..-5]+"_zwischen.xml saved \nall done! [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 	
 	#additionaly save a txt file for each chapter 
 	#doc = Nokogiri::XML(text)

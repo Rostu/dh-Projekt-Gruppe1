@@ -16,22 +16,24 @@ def load_gem(name, version=nil)
 
   require name
 end
+beginningTime = Time.now
 
 #nokogiri is an HTML, XML, SAX, and Reader parser 
 load_gem 'nokogiri'
 
+puts "additional libraries installed and required [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 #test for arguments
 if ARGV.size == 0 || ARGV[0] == "-h" || ARGV.size > 2 || ARGV.size == 1 
 	puts "-h	-->	displays this help"
-	puts "-f	-->	to split file"
+	puts "-f	-->	filename including extention, plus directory if not the same as the script"
 end
 
 
 if ARGV.size == 2 && ARGV[0] == "-f"
 	file = ARGV[1] 
 	counter = 1
-
+	beginningTime = Time.now
 	doc = Nokogiri::XML(File.open(file))
 	doc.encoding = 'UTF-8'
 	doc.xpath("//document//chapter").each do |chapter|
@@ -40,5 +42,6 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 		end
 		counter = counter + 1		
 	end
+	puts "all done! \n #{counter-1} chapters found and saved to txt [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 end
 

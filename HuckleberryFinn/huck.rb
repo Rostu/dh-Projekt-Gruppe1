@@ -15,10 +15,11 @@ def load_gem(name, version=nil)
 
   require name
 end
+beginningTime = Time.now
 
 #nokogiri is an HTML, XML, SAX, and Reader parser 
 load_gem 'nokogiri'
-
+puts "additional libraries installed and required [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 #test for arguments
 if ARGV.size == 0 || ARGV[0] == "-h" || ARGV.size > 2 || ARGV.size == 1 
@@ -44,7 +45,8 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	rescue Encoding::UndefinedConversionError
   	# ...
 	end
-
+	puts "File opened and converted [#{Time.now.round(3) - beginningTime.round(3)} sec]"
+	
 	#first clear textjunk and add xml tags 
 	text = "<document title='HUCKLEBERRY FINN' author='Mark Twain'>\n<chapter>\n<paragraph>\n" + text + "\n</paragraph>\n</chapter>\n</document>"
 	altered_text = text.gsub!(/\s{4,}CHAPTER \w{1,}.\s{1,}/,"\n</paragraph>\n</chapter>\n<chapter>\n<paragraph>\n")
@@ -68,10 +70,12 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 		zwischen2 = para.content
 		para.replace(zwischen2)
 	end
+	puts "Text cleared, xml markup done [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 	# save as xml file	
 	File.open('HuckleberryFinn_zwischen.xml','w') {|f| doc.write_xml_to f}	
-
+	puts "Xml file: HuckleberryFinn_zwischen.xml saved \nall done! [#{Time.now.round(3) - beginningTime.round(3)} sec]"
+	
 	# save as txt file 
 	#File.open("HuckFinn.txt", 'w') do |file|
 	#   file.puts(text)

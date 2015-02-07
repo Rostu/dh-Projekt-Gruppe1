@@ -15,13 +15,16 @@ def load_gem(name, version=nil)
 
   require name
 end
+beginningTime = Time.now
 #two ruby gems that save a lot of work 
 #nokogiri is an HTML, XML, SAX, and Reader parser 
 load_gem 'nokogiri'
 #yomu is a ruby gem that includes librarys to read and convert pdf files
 load_gem 'yomu'
 
+puts "additional libraries installed and required [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 #test for arguments
+
 if ARGV.size == 0 || ARGV[0] == "-h" || ARGV.size > 2 || ARGV.size == 1 
 	puts "-h	-->	displays this help"
 	puts "-f	-->	operates on the given file"
@@ -33,7 +36,7 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	yomu = Yomu.new $file
 	text = yomu.text
 	altered_text = ""
-
+	puts "File opened and converted [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 	#clearing obvious text junk 
 	altered_text = text.gsub!(/“To Kill a Mockingbird” By Nelle Harper Lee \d{1,3}/,"")
 	altered_text = altered_text.gsub!(/\n{6}/,"")
@@ -77,11 +80,12 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 		zwischen2 = para.content
 		para.replace(zwischen2)
 	end
-
+	puts "Text cleared, xml markup done [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 	#save to xml file
 	File.open('mockingbird_zwischen.xml','w') {|f| doc.write_xml_to f}	
-
+	puts "Xml file: mockingbird_zwischen.xml saved \nall done! [#{Time.now.round(3) - beginningTime.round(3)} sec]"
+	
 	#additionaly save a txt file for each chapter 
 	#this option was not used since there was a manual check for errors before we splitted the chapters 
 	#counter2 = 1

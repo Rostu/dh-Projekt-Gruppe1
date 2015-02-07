@@ -15,9 +15,11 @@ def load_gem(name, version=nil)
 
   require name
 end
+beginningTime = Time.now
 
 #nokogiri is an HTML, XML, SAX, and Reader parser 
 load_gem 'nokogiri'
+puts "additional libraries installed and required [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 
 #test for arguments
 if  ARGV[0] == "-h" || ARGV.size < 4 || ARGV.size > 4
@@ -40,7 +42,6 @@ if ARGV.size == 4 && (ARGV[0] == "-d" or ARGV[0] == "-f") && (ARGV[2] == "-d" or
 	#search the given directory for xml files 
         directory = folder +'*.xml'	
 	count = Dir.glob(directory).count
-	puts "Unter dem Pfad "+ directory +" wurden " + count.to_s + " xml-Dateien gefunden"
 	
 	if count > 0 
 		puts "Starte Bearbeitung..."
@@ -50,21 +51,21 @@ if ARGV.size == 4 && (ARGV[0] == "-d" or ARGV[0] == "-f") && (ARGV[2] == "-d" or
 		puts "Keine xml-Dateien gefunden"
 	end
 
-	#load the found xml files into array and sort them by filename (by the number at the end of the filename)
+	#load the found xml files into array and sort them by filename 
 	$files =  Dir.glob(directory).sort_by{|f| f.scan(/\d+/)[1].to_i }
-	
-	#creating some variables for further use.
+	puts "Unter dem Pfad wurden " + count.to_s + " xml-Dateien gefunden [#{Time.now.round(3) - beginningTime.round(3)} sec]"
+
+	#creating some variables for further use.	
 	dump = []
 	count = 0
 	count2= 1
-
 	#open each xml chapter file and save the sentences node of the files to a array (dump)
 	$files.each do |xml_file|
 		doc = Nokogiri::XML(File.open(xml_file))
 		doc.encoding = 'UTF-8'
         	doc.search('//document//sentences').each do |sentences|
 			dump<<sentences
-			puts xml_file + ' ' + count2.to_s + ' eingelesen'
+			#puts xml_file + " " + count2.to_s + " eingelesen [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 			count2 += 1
 		end
 	end
@@ -82,7 +83,7 @@ if ARGV.size == 4 && (ARGV[0] == "-d" or ARGV[0] == "-f") && (ARGV[2] == "-d" or
 			chapter.content = ""
 			dump[count].parent = chapter
 			count += 1
-                	puts "chapter "+count.to_s+" eingefügt"
+                	puts "chapter "+count.to_s+" eingefügt [#{Time.now.round(3) - beginningTime.round(3)} sec]"
                 	
 		end
         end
@@ -90,5 +91,6 @@ if ARGV.size == 4 && (ARGV[0] == "-d" or ARGV[0] == "-f") && (ARGV[2] == "-d" or
 	#save finished xml 
 	outputname = file + ""
 	outputname.gsub!("_zwischen","")
-	File.open(outputname, 'w') { |f| f.print(doc2.to_xml) }        
+	File.open(outputname, 'w') { |f| f.print(doc2.to_xml) }  
+	puts "all done [#{Time.now.round(3) - beginningTime.round(3)} sec]"      
 end
