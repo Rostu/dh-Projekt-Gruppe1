@@ -89287,6 +89287,13 @@
       <coreference id="3">
         <mention representative="true">
           <sentence>1</sentence>
+          <start>22</start>
+          <end>25</end>
+          <head>24</head>
+          <text>a true one</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
           <start>19</start>
           <end>21</end>
           <head>20</head>
@@ -89339,50 +89346,6 @@
       </coreference>
       <coreference id="5">
         <mention representative="true">
-          <sentence>77</sentence>
-          <start>3</start>
-          <end>8</end>
-          <head>4</head>
-          <text>generous men of New York</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>9</start>
-          <end>85</end>
-          <head>9</head>
-          <text>you who have learned , by the cradles of your own children , to love and feel for all mankind , -- by the sacred love you bear your child ; by your joy in his beautiful , spotless infancy ; by the motherly pity and tenderness with which you guide his growing years ; by the anxieties of his education ; by the prayers you breathe for his soul 's eternal good ; -- I</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>86</start>
-          <end>96</end>
-          <head>86</head>
-          <text>you , pity the mother who has all your affections</text>
-        </mention>
-        <mention>
-          <sentence>85</sentence>
-          <start>82</start>
-          <end>83</end>
-          <head>82</head>
-          <text>men</text>
-        </mention>
-        <mention>
-          <sentence>115</sentence>
-          <start>33</start>
-          <end>34</end>
-          <head>33</head>
-          <text>men</text>
-        </mention>
-        <mention>
-          <sentence>147</sentence>
-          <start>9</start>
-          <end>10</end>
-          <head>9</head>
-          <text>men</text>
-        </mention>
-      </coreference>
-      <coreference id="6">
-        <mention representative="true">
           <sentence>2</sentence>
           <start>33</start>
           <end>36</end>
@@ -89397,13 +89360,20 @@
           <text>her friends</text>
         </mention>
       </coreference>
-      <coreference id="7">
+      <coreference id="6">
         <mention representative="true">
           <sentence>145</sentence>
           <start>1</start>
           <end>4</end>
           <head>3</head>
           <text>The colored man</text>
+        </mention>
+        <mention>
+          <sentence>145</sentence>
+          <start>14</start>
+          <end>16</end>
+          <head>15</head>
+          <text>a voter</text>
         </mention>
         <mention>
           <sentence>154</sentence>
@@ -89413,30 +89383,7 @@
           <text>man 's</text>
         </mention>
       </coreference>
-      <coreference id="8">
-        <mention representative="true">
-          <sentence>79</sentence>
-          <start>55</start>
-          <end>57</end>
-          <head>56</head>
-          <text>those mothers</text>
-        </mention>
-        <mention>
-          <sentence>80</sentence>
-          <start>4</start>
-          <end>7</end>
-          <head>4</head>
-          <text>mothers of America</text>
-        </mention>
-        <mention>
-          <sentence>82</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>this</text>
-        </mention>
-      </coreference>
-      <coreference id="9">
+      <coreference id="7">
         <mention representative="true">
           <sentence>3</sentence>
           <start>19</start>
@@ -89459,7 +89406,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="10">
+      <coreference id="8">
         <mention representative="true">
           <sentence>145</sentence>
           <start>28</start>
@@ -89475,23 +89422,7 @@
           <text>his right</text>
         </mention>
       </coreference>
-      <coreference id="11">
-        <mention representative="true">
-          <sentence>78</sentence>
-          <start>18</start>
-          <end>21</end>
-          <head>20</head>
-          <text>your own children</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>38</start>
-          <end>41</end>
-          <head>40</head>
-          <text>her own children</text>
-        </mention>
-      </coreference>
-      <coreference id="12">
+      <coreference id="9">
         <mention representative="true">
           <sentence>4</sentence>
           <start>5</start>
@@ -89507,7 +89438,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="13">
+      <coreference id="10">
         <mention representative="true">
           <sentence>146</sentence>
           <start>3</start>
@@ -89523,7 +89454,7 @@
           <text>instances</text>
         </mention>
       </coreference>
-      <coreference id="14">
+      <coreference id="11">
         <mention representative="true">
           <sentence>4</sentence>
           <start>7</start>
@@ -89539,51 +89470,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="15">
-        <mention representative="true">
-          <sentence>78</sentence>
-          <start>37</start>
-          <end>39</end>
-          <head>38</head>
-          <text>your child</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>44</start>
-          <end>45</end>
-          <head>44</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>60</start>
-          <end>61</end>
-          <head>60</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>68</start>
-          <end>69</end>
-          <head>68</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>78</sentence>
-          <start>77</start>
-          <end>78</end>
-          <head>77</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>79</sentence>
-          <start>6</start>
-          <end>8</end>
-          <head>7</head>
-          <text>your child</text>
-        </mention>
-      </coreference>
-      <coreference id="16">
+      <coreference id="12">
         <mention representative="true">
           <sentence>147</sentence>
           <start>5</start>
@@ -89599,7 +89486,7 @@
           <text>this Union</text>
         </mention>
       </coreference>
-      <coreference id="17">
+      <coreference id="13">
         <mention representative="true">
           <sentence>5</sentence>
           <start>11</start>
@@ -89615,7 +89502,23 @@
           <text>Tom</text>
         </mention>
       </coreference>
-      <coreference id="18">
+      <coreference id="14">
+        <mention representative="true">
+          <sentence>6</sentence>
+          <start>1</start>
+          <end>9</end>
+          <head>1</head>
+          <text>Some of the most deeply tragic and romantic</text>
+        </mention>
+        <mention>
+          <sentence>6</sentence>
+          <start>19</start>
+          <end>20</end>
+          <head>19</head>
+          <text>their</text>
+        </mention>
+      </coreference>
+      <coreference id="15">
         <mention representative="true">
           <sentence>148</sentence>
           <start>4</start>
@@ -89638,7 +89541,7 @@
           <text>them</text>
         </mention>
       </coreference>
-      <coreference id="19">
+      <coreference id="16">
         <mention representative="true">
           <sentence>6</sentence>
           <start>18</start>
@@ -89654,7 +89557,23 @@
           <text>its parallel</text>
         </mention>
       </coreference>
-      <coreference id="20">
+      <coreference id="17">
+        <mention representative="true">
+          <sentence>7</sentence>
+          <start>15</start>
+          <end>18</end>
+          <head>17</head>
+          <text>a well-known fact</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>1</start>
+          <end>14</end>
+          <head>2</head>
+          <text>The incident of the mother 's crossing the Ohio river on the ice</text>
+        </mention>
+      </coreference>
+      <coreference id="18">
         <mention representative="true">
           <sentence>7</sentence>
           <start>4</start>
@@ -89677,8 +89596,15 @@
           <text>the mother</text>
         </mention>
       </coreference>
-      <coreference id="21">
+      <coreference id="19">
         <mention representative="true">
+          <sentence>150</sentence>
+          <start>3</start>
+          <end>14</end>
+          <head>4</head>
+          <text>an age of the world when nations are trembling and convulsed</text>
+        </mention>
+        <mention>
           <sentence>149</sentence>
           <start>2</start>
           <end>3</end>
@@ -89693,7 +89619,7 @@
           <text>This</text>
         </mention>
       </coreference>
-      <coreference id="22">
+      <coreference id="20">
         <mention representative="true">
           <sentence>7</sentence>
           <start>8</start>
@@ -89706,6 +89632,13 @@
           <start>14</start>
           <end>15</end>
           <head>14</head>
+          <text>Ohio</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>24</start>
+          <end>25</end>
+          <head>24</head>
           <text>Ohio</text>
         </mention>
         <mention>
@@ -89723,7 +89656,7 @@
           <text>Ohio</text>
         </mention>
       </coreference>
-      <coreference id="23">
+      <coreference id="21">
         <mention representative="true">
           <sentence>149</sentence>
           <start>24</start>
@@ -89739,7 +89672,7 @@
           <text>the Christian church</text>
         </mention>
       </coreference>
-      <coreference id="24">
+      <coreference id="22">
         <mention representative="true">
           <sentence>8</sentence>
           <start>39</start>
@@ -89776,23 +89709,23 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="25">
+      <coreference id="23">
         <mention representative="true">
-          <sentence>78</sentence>
-          <start>113</start>
-          <end>115</end>
-          <head>114</head>
-          <text>her bosom</text>
+          <sentence>8</sentence>
+          <start>15</start>
+          <end>41</end>
+          <head>16</head>
+          <text>an incident that fell under the personal observation of a brother of the writer , then collecting-clerk to a large mercantile house , in New Orleans</text>
         </mention>
         <mention>
-          <sentence>159</sentence>
-          <start>11</start>
-          <end>13</end>
-          <head>12</head>
-          <text>her bosom</text>
+          <sentence>8</sentence>
+          <start>1</start>
+          <end>7</end>
+          <head>2</head>
+          <text>The story of `` old Prue</text>
         </mention>
       </coreference>
-      <coreference id="26">
+      <coreference id="24">
         <mention representative="true">
           <sentence>8</sentence>
           <start>24</start>
@@ -89843,7 +89776,7 @@
           <text>I</text>
         </mention>
       </coreference>
-      <coreference id="27">
+      <coreference id="25">
         <mention representative="true">
           <sentence>151</sentence>
           <start>1</start>
@@ -89859,8 +89792,22 @@
           <text>this mighty influence</text>
         </mention>
       </coreference>
-      <coreference id="28">
+      <coreference id="26">
         <mention representative="true">
+          <sentence>8</sentence>
+          <start>27</start>
+          <end>32</end>
+          <head>28</head>
+          <text>the writer , then collecting-clerk</text>
+        </mention>
+        <mention>
+          <sentence>8</sentence>
+          <start>27</start>
+          <end>29</end>
+          <head>28</head>
+          <text>the writer</text>
+        </mention>
+        <mention>
           <sentence>49</sentence>
           <start>8</start>
           <end>11</end>
@@ -89896,30 +89843,7 @@
           <text>The writer</text>
         </mention>
       </coreference>
-      <coreference id="29">
-        <mention representative="true">
-          <sentence>79</sentence>
-          <start>21</start>
-          <end>24</end>
-          <head>22</head>
-          <text>those last cries</text>
-        </mention>
-        <mention>
-          <sentence>79</sentence>
-          <start>10</start>
-          <end>11</end>
-          <head>10</head>
-          <text>those</text>
-        </mention>
-        <mention>
-          <sentence>117</sentence>
-          <start>25</start>
-          <end>30</end>
-          <head>25</head>
-          <text>those who formerly were slaves</text>
-        </mention>
-      </coreference>
-      <coreference id="30">
+      <coreference id="27">
         <mention representative="true">
           <sentence>9</sentence>
           <start>7</start>
@@ -89956,7 +89880,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="31">
+      <coreference id="28">
         <mention representative="true">
           <sentence>153</sentence>
           <start>6</start>
@@ -89972,7 +89896,7 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="32">
+      <coreference id="29">
         <mention representative="true">
           <sentence>10</sentence>
           <start>11</start>
@@ -89988,7 +89912,7 @@
           <text>the plantation</text>
         </mention>
       </coreference>
-      <coreference id="33">
+      <coreference id="30">
         <mention representative="true">
           <sentence>10</sentence>
           <start>38</start>
@@ -90004,37 +89928,7 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="34">
-        <mention representative="true">
-          <sentence>81</sentence>
-          <start>8</start>
-          <end>11</end>
-          <head>10</head>
-          <text>the free state</text>
-        </mention>
-        <mention>
-          <sentence>81</sentence>
-          <start>16</start>
-          <end>17</end>
-          <head>16</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>83</sentence>
-          <start>2</start>
-          <end>3</end>
-          <head>2</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>84</sentence>
-          <start>20</start>
-          <end>21</end>
-          <head>20</head>
-          <text>it</text>
-        </mention>
-      </coreference>
-      <coreference id="35">
+      <coreference id="31">
         <mention representative="true">
           <sentence>157</sentence>
           <start>5</start>
@@ -90057,7 +89951,7 @@
           <text>day</text>
         </mention>
       </coreference>
-      <coreference id="36">
+      <coreference id="32">
         <mention representative="true">
           <sentence>10</sentence>
           <start>53</start>
@@ -90073,23 +89967,7 @@
           <text>our</text>
         </mention>
       </coreference>
-      <coreference id="37">
-        <mention representative="true">
-          <sentence>84</sentence>
-          <start>1</start>
-          <end>7</end>
-          <head>2</head>
-          <text>The people of the free states</text>
-        </mention>
-        <mention>
-          <sentence>84</sentence>
-          <start>31</start>
-          <end>32</end>
-          <head>31</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="38">
+      <coreference id="33">
         <mention representative="true">
           <sentence>158</sentence>
           <start>20</start>
@@ -90105,7 +89983,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="39">
+      <coreference id="34">
         <mention representative="true">
           <sentence>12</sentence>
           <start>2</start>
@@ -90128,6 +90006,13 @@
           <text>it</text>
         </mention>
         <mention>
+          <sentence>13</sentence>
+          <start>12</start>
+          <end>16</end>
+          <head>13</head>
+          <text>a principle of jurisprudence</text>
+        </mention>
+        <mention>
           <sentence>25</sentence>
           <start>13</start>
           <end>15</end>
@@ -90135,13 +90020,20 @@
           <text>her fate</text>
         </mention>
       </coreference>
-      <coreference id="40">
+      <coreference id="35">
         <mention representative="true">
           <sentence>12</sentence>
           <start>12</start>
           <end>14</end>
           <head>13</head>
           <text>many times</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>16</start>
+          <end>18</end>
+          <head>16</head>
+          <text>times past</text>
         </mention>
         <mention>
           <sentence>155</sentence>
@@ -90151,23 +90043,7 @@
           <text>the times</text>
         </mention>
       </coreference>
-      <coreference id="41">
-        <mention representative="true">
-          <sentence>85</sentence>
-          <start>2</start>
-          <end>8</end>
-          <head>3</head>
-          <text>the mothers of the free states</text>
-        </mention>
-        <mention>
-          <sentence>85</sentence>
-          <start>12</start>
-          <end>13</end>
-          <head>12</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="42">
+      <coreference id="36">
         <mention representative="true">
           <sentence>158</sentence>
           <start>39</start>
@@ -90183,37 +90059,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="43">
-        <mention representative="true">
-          <sentence>85</sentence>
-          <start>42</start>
-          <end>48</end>
-          <head>43</head>
-          <text>the sons of the free states</text>
-        </mention>
-        <mention>
-          <sentence>85</sentence>
-          <start>63</start>
-          <end>69</end>
-          <head>64</head>
-          <text>the sons of the free states</text>
-        </mention>
-        <mention>
-          <sentence>85</sentence>
-          <start>73</start>
-          <end>74</end>
-          <head>73</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>85</sentence>
-          <start>90</start>
-          <end>91</end>
-          <head>90</head>
-          <text>their</text>
-        </mention>
-      </coreference>
-      <coreference id="44">
+      <coreference id="37">
         <mention representative="true">
           <sentence>13</sentence>
           <start>17</start>
@@ -90229,7 +90075,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="45">
+      <coreference id="38">
         <mention representative="true">
           <sentence>13</sentence>
           <start>28</start>
@@ -90245,7 +90091,7 @@
           <text>the white</text>
         </mention>
       </coreference>
-      <coreference id="46">
+      <coreference id="39">
         <mention representative="true">
           <sentence>13</sentence>
           <start>39</start>
@@ -90261,8 +90107,15 @@
           <text>that case</text>
         </mention>
       </coreference>
-      <coreference id="47">
+      <coreference id="40">
         <mention representative="true">
+          <sentence>13</sentence>
+          <start>48</start>
+          <end>69</end>
+          <head>49</head>
+          <text>a man whose passions outweigh his interests , and a slave who has manhood or principle enough to resist his will</text>
+        </mention>
+        <mention>
           <sentence>15</sentence>
           <start>9</start>
           <end>10</end>
@@ -90284,7 +90137,7 @@
           <text>they</text>
         </mention>
       </coreference>
-      <coreference id="48">
+      <coreference id="41">
         <mention representative="true">
           <sentence>13</sentence>
           <start>48</start>
@@ -90300,7 +90153,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="49">
+      <coreference id="42">
         <mention representative="true">
           <sentence>13</sentence>
           <start>57</start>
@@ -90379,7 +90232,7 @@
           <text>the slave</text>
         </mention>
       </coreference>
-      <coreference id="50">
+      <coreference id="43">
         <mention representative="true">
           <sentence>14</sentence>
           <start>9</start>
@@ -90402,7 +90255,7 @@
           <text>her life</text>
         </mention>
       </coreference>
-      <coreference id="51">
+      <coreference id="44">
         <mention representative="true">
           <sentence>15</sentence>
           <start>1</start>
@@ -90418,7 +90271,7 @@
           <text>facts</text>
         </mention>
       </coreference>
-      <coreference id="52">
+      <coreference id="45">
         <mention representative="true">
           <sentence>15</sentence>
           <start>9</start>
@@ -90441,7 +90294,7 @@
           <text>half way</text>
         </mention>
       </coreference>
-      <coreference id="53">
+      <coreference id="46">
         <mention representative="true">
           <sentence>15</sentence>
           <start>17</start>
@@ -90457,7 +90310,7 @@
           <text>itself</text>
         </mention>
       </coreference>
-      <coreference id="54">
+      <coreference id="47">
         <mention representative="true">
           <sentence>75</sentence>
           <start>11</start>
@@ -90487,7 +90340,7 @@
           <text>this a thing</text>
         </mention>
       </coreference>
-      <coreference id="55">
+      <coreference id="48">
         <mention representative="true">
           <sentence>164</sentence>
           <start>8</start>
@@ -90503,30 +90356,7 @@
           <text>injustice and cruelty</text>
         </mention>
       </coreference>
-      <coreference id="56">
-        <mention representative="true">
-          <sentence>87</sentence>
-          <start>17</start>
-          <end>18</end>
-          <head>17</head>
-          <text>their</text>
-        </mention>
-        <mention>
-          <sentence>87</sentence>
-          <start>23</start>
-          <end>24</end>
-          <head>23</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>87</sentence>
-          <start>31</start>
-          <end>32</end>
-          <head>31</head>
-          <text>themselves</text>
-        </mention>
-      </coreference>
-      <coreference id="57">
+      <coreference id="49">
         <mention representative="true">
           <sentence>16</sentence>
           <start>7</start>
@@ -90542,7 +90372,7 @@
           <text>These cases</text>
         </mention>
       </coreference>
-      <coreference id="58">
+      <coreference id="50">
         <mention representative="true">
           <sentence>17</sentence>
           <start>5</start>
@@ -90558,8 +90388,15 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="59">
+      <coreference id="51">
         <mention representative="true">
+          <sentence>19</sentence>
+          <start>4</start>
+          <end>11</end>
+          <head>10</head>
+          <text>an inherent one in the slave system</text>
+        </mention>
+        <mention>
           <sentence>19</sentence>
           <start>1</start>
           <end>3</end>
@@ -90581,46 +90418,7 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="60">
-        <mention representative="true">
-          <sentence>90</sentence>
-          <start>3</start>
-          <end>10</end>
-          <head>4</head>
-          <text>one thing that every individual can do</text>
-        </mention>
-        <mention>
-          <sentence>90</sentence>
-          <start>16</start>
-          <end>17</end>
-          <head>16</head>
-          <text>it</text>
-        </mention>
-      </coreference>
-      <coreference id="61">
-        <mention representative="true">
-          <sentence>91</sentence>
-          <start>12</start>
-          <end>21</end>
-          <head>13</head>
-          <text>the man or woman who feels strongly , healthily</text>
-        </mention>
-        <mention>
-          <sentence>93</sentence>
-          <start>2</start>
-          <end>3</end>
-          <head>2</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>94</sentence>
-          <start>3</start>
-          <end>4</end>
-          <head>3</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="62">
+      <coreference id="52">
         <mention representative="true">
           <sentence>22</sentence>
           <start>24</start>
@@ -90636,8 +90434,15 @@
           <text>the Pearl</text>
         </mention>
       </coreference>
-      <coreference id="63">
+      <coreference id="53">
         <mention representative="true">
+          <sentence>21</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>Horace Mann</text>
+        </mention>
+        <mention>
           <sentence>22</sentence>
           <start>1</start>
           <end>2</end>
@@ -90652,7 +90457,7 @@
           <text>I</text>
         </mention>
       </coreference>
-      <coreference id="64">
+      <coreference id="54">
         <mention representative="true">
           <sentence>21</sentence>
           <start>3</start>
@@ -90668,92 +90473,7 @@
           <text>the</text>
         </mention>
       </coreference>
-      <coreference id="65">
-        <mention representative="true">
-          <sentence>96</sentence>
-          <start>7</start>
-          <end>9</end>
-          <head>8</head>
-          <text>another power</text>
-        </mention>
-        <mention>
-          <sentence>98</sentence>
-          <start>3</start>
-          <end>4</end>
-          <head>3</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>156</sentence>
-          <start>3</start>
-          <end>5</end>
-          <head>4</head>
-          <text>this power</text>
-        </mention>
-        <mention>
-          <sentence>156</sentence>
-          <start>25</start>
-          <end>26</end>
-          <head>25</head>
-          <text>it</text>
-        </mention>
-      </coreference>
-      <coreference id="66">
-        <mention representative="true">
-          <sentence>99</sentence>
-          <start>4</start>
-          <end>6</end>
-          <head>5</head>
-          <text>the heathen</text>
-        </mention>
-        <mention>
-          <sentence>99</sentence>
-          <start>11</start>
-          <end>13</end>
-          <head>12</head>
-          <text>the heathen</text>
-        </mention>
-      </coreference>
-      <coreference id="67">
-        <mention representative="true">
-          <sentence>100</sentence>
-          <start>29</start>
-          <end>30</end>
-          <head>29</head>
-          <text>Christianity</text>
-        </mention>
-        <mention>
-          <sentence>102</sentence>
-          <start>62</start>
-          <end>63</end>
-          <head>62</head>
-          <text>Christianity</text>
-        </mention>
-      </coreference>
-      <coreference id="68">
-        <mention representative="true">
-          <sentence>100</sentence>
-          <start>4</start>
-          <end>54</end>
-          <head>6</head>
-          <text>those distressed Christians whose whole chance of religious improvement is an accident of trade and sale ; from whom any adherence to the morals of Christianity is , in many cases , an impossibility , unless they have given them , from above , the courage and grace of martyrdom</text>
-        </mention>
-        <mention>
-          <sentence>104</sentence>
-          <start>10</start>
-          <end>12</end>
-          <head>11</head>
-          <text>oh Christians</text>
-        </mention>
-        <mention>
-          <sentence>160</sentence>
-          <start>1</start>
-          <end>3</end>
-          <head>1</head>
-          <text>Christians !</text>
-        </mention>
-      </coreference>
-      <coreference id="69">
+      <coreference id="55">
         <mention representative="true">
           <sentence>23</sentence>
           <start>1</start>
@@ -90776,23 +90496,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="70">
-        <mention representative="true">
-          <sentence>100</sentence>
-          <start>40</start>
-          <end>41</end>
-          <head>40</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>100</sentence>
-          <start>43</start>
-          <end>44</end>
-          <head>43</head>
-          <text>them</text>
-        </mention>
-      </coreference>
-      <coreference id="71">
+      <coreference id="56">
         <mention representative="true">
           <sentence>25</sentence>
           <start>4</start>
@@ -90836,46 +90540,7 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="72">
-        <mention representative="true">
-          <sentence>102</sentence>
-          <start>2</start>
-          <end>12</end>
-          <head>3</head>
-          <text>the shores of our free states are emerging the poor</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>51</start>
-          <end>53</end>
-          <head>52</head>
-          <text>those shores</text>
-        </mention>
-      </coreference>
-      <coreference id="73">
-        <mention representative="true">
-          <sentence>102</sentence>
-          <start>10</start>
-          <end>12</end>
-          <head>11</head>
-          <text>the poor</text>
-        </mention>
-        <mention>
-          <sentence>103</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>They</text>
-        </mention>
-        <mention>
-          <sentence>103</sentence>
-          <start>10</start>
-          <end>11</end>
-          <head>10</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="74">
+      <coreference id="57">
         <mention representative="true">
           <sentence>26</sentence>
           <start>1</start>
@@ -90891,7 +90556,7 @@
           <text>that</text>
         </mention>
       </coreference>
-      <coreference id="75">
+      <coreference id="58">
         <mention representative="true">
           <sentence>164</sentence>
           <start>70</start>
@@ -90949,7 +90614,7 @@
           <text>God</text>
         </mention>
       </coreference>
-      <coreference id="76">
+      <coreference id="59">
         <mention representative="true">
           <sentence>28</sentence>
           <start>3</start>
@@ -90965,7 +90630,7 @@
           <text>them</text>
         </mention>
       </coreference>
-      <coreference id="77">
+      <coreference id="60">
         <mention representative="true">
           <sentence>29</sentence>
           <start>11</start>
@@ -90988,7 +90653,7 @@
           <text>she</text>
         </mention>
       </coreference>
-      <coreference id="78">
+      <coreference id="61">
         <mention representative="true">
           <sentence>29</sentence>
           <start>22</start>
@@ -91004,65 +90669,7 @@
           <text>He</text>
         </mention>
       </coreference>
-      <coreference id="79">
-        <mention representative="true">
-          <sentence>104</sentence>
-          <start>6</start>
-          <end>9</end>
-          <head>8</head>
-          <text>these poor unfortunates</text>
-        </mention>
-        <mention>
-          <sentence>105</sentence>
-          <start>25</start>
-          <end>26</end>
-          <head>25</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>106</sentence>
-          <start>11</start>
-          <end>12</end>
-          <head>11</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>107</sentence>
-          <start>6</start>
-          <end>7</end>
-          <head>6</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>108</sentence>
-          <start>15</start>
-          <end>16</end>
-          <head>15</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>108</sentence>
-          <start>25</start>
-          <end>26</end>
-          <head>25</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>108</sentence>
-          <start>41</start>
-          <end>42</end>
-          <head>41</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>111</sentence>
-          <start>6</start>
-          <end>7</end>
-          <head>6</head>
-          <text>We</text>
-        </mention>
-      </coreference>
-      <coreference id="80">
+      <coreference id="62">
         <mention representative="true">
           <sentence>30</sentence>
           <start>6</start>
@@ -91127,76 +90734,7 @@
           <text>they</text>
         </mention>
       </coreference>
-      <coreference id="81">
-        <mention representative="true">
-          <sentence>106</sentence>
-          <start>1</start>
-          <end>12</end>
-          <head>1</head>
-          <text>Shall the doors of churches and school-houses be shut upon them</text>
-        </mention>
-        <mention>
-          <sentence>107</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>Shall</text>
-        </mention>
-      </coreference>
-      <coreference id="82">
-        <mention representative="true">
-          <sentence>108</sentence>
-          <start>1</start>
-          <end>6</end>
-          <head>1</head>
-          <text>Shall the church of Christ</text>
-        </mention>
-        <mention>
-          <sentence>108</sentence>
-          <start>32</start>
-          <end>33</end>
-          <head>32</head>
-          <text>her</text>
-        </mention>
-      </coreference>
-      <coreference id="83">
-        <mention representative="true">
-          <sentence>108</sentence>
-          <start>2</start>
-          <end>4</end>
-          <head>3</head>
-          <text>the church</text>
-        </mention>
-        <mention>
-          <sentence>109</sentence>
-          <start>2</start>
-          <end>3</end>
-          <head>2</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>109</sentence>
-          <start>7</start>
-          <end>8</end>
-          <head>7</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>110</sentence>
-          <start>2</start>
-          <end>3</end>
-          <head>2</head>
-          <text>it</text>
-        </mention>
-        <mention>
-          <sentence>110</sentence>
-          <start>16</start>
-          <end>17</end>
-          <head>16</head>
-          <text>it</text>
-        </mention>
-      </coreference>
-      <coreference id="84">
+      <coreference id="63">
         <mention representative="true">
           <sentence>34</sentence>
           <start>6</start>
@@ -91226,30 +90764,7 @@
           <text>The author</text>
         </mention>
       </coreference>
-      <coreference id="85">
-        <mention representative="true">
-          <sentence>108</sentence>
-          <start>43</start>
-          <end>44</end>
-          <head>43</head>
-          <text>our</text>
-        </mention>
-        <mention>
-          <sentence>111</sentence>
-          <start>10</start>
-          <end>11</end>
-          <head>10</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>111</sentence>
-          <start>14</start>
-          <end>15</end>
-          <head>14</head>
-          <text>them</text>
-        </mention>
-      </coreference>
-      <coreference id="86">
+      <coreference id="64">
         <mention representative="true">
           <sentence>35</sentence>
           <start>12</start>
@@ -91272,7 +90787,7 @@
           <text>Cincinnati</text>
         </mention>
       </coreference>
-      <coreference id="87">
+      <coreference id="65">
         <mention representative="true">
           <sentence>145</sentence>
           <start>18</start>
@@ -91295,7 +90810,7 @@
           <text>a few years</text>
         </mention>
       </coreference>
-      <coreference id="88">
+      <coreference id="66">
         <mention representative="true">
           <sentence>35</sentence>
           <start>6</start>
@@ -91311,30 +90826,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="89">
-        <mention representative="true">
-          <sentence>110</sentence>
-          <start>22</start>
-          <end>23</end>
-          <head>22</head>
-          <text>nations</text>
-        </mention>
-        <mention>
-          <sentence>150</sentence>
-          <start>9</start>
-          <end>10</end>
-          <head>9</head>
-          <text>nations</text>
-        </mention>
-        <mention>
-          <sentence>164</sentence>
-          <start>66</start>
-          <end>67</end>
-          <head>66</head>
-          <text>nations</text>
-        </mention>
-      </coreference>
-      <coreference id="90">
+      <coreference id="67">
         <mention representative="true">
           <sentence>36</sentence>
           <start>1</start>
@@ -91357,7 +90849,7 @@
           <text>the young man</text>
         </mention>
       </coreference>
-      <coreference id="91">
+      <coreference id="68">
         <mention representative="true">
           <sentence>36</sentence>
           <start>21</start>
@@ -91387,7 +90879,7 @@
           <text>the Quaker</text>
         </mention>
       </coreference>
-      <coreference id="92">
+      <coreference id="69">
         <mention representative="true">
           <sentence>36</sentence>
           <start>31</start>
@@ -91403,7 +90895,7 @@
           <text>our kind</text>
         </mention>
       </coreference>
-      <coreference id="93">
+      <coreference id="70">
         <mention representative="true">
           <sentence>37</sentence>
           <start>1</start>
@@ -91496,8 +90988,15 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="94">
+      <coreference id="71">
         <mention representative="true">
+          <sentence>40</sentence>
+          <start>3</start>
+          <end>13</end>
+          <head>4</head>
+          <text>a side of the subject which he never had heard</text>
+        </mention>
+        <mention>
           <sentence>38</sentence>
           <start>12</start>
           <end>17</end>
@@ -91512,97 +91011,7 @@
           <text>It</text>
         </mention>
       </coreference>
-      <coreference id="95">
-        <mention representative="true">
-          <sentence>112</sentence>
-          <start>43</start>
-          <end>44</end>
-          <head>43</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>112</sentence>
-          <start>47</start>
-          <end>48</end>
-          <head>47</head>
-          <text>her</text>
-        </mention>
-      </coreference>
-      <coreference id="96">
-        <mention representative="true">
-          <sentence>113</sentence>
-          <start>6</start>
-          <end>13</end>
-          <head>12</head>
-          <text>an ignorant , inexperienced , half-barbarized race</text>
-        </mention>
-        <mention>
-          <sentence>119</sentence>
-          <start>33</start>
-          <end>35</end>
-          <head>34</head>
-          <text>the race</text>
-        </mention>
-        <mention>
-          <sentence>123</sentence>
-          <start>43</start>
-          <end>45</end>
-          <head>44</head>
-          <text>the race</text>
-        </mention>
-      </coreference>
-      <coreference id="97">
-        <mention representative="true">
-          <sentence>114</sentence>
-          <start>8</start>
-          <end>16</end>
-          <head>10</head>
-          <text>these poor sufferers in the spirit of Christ</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>18</start>
-          <end>19</end>
-          <head>18</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>31</start>
-          <end>32</end>
-          <head>31</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>46</start>
-          <end>47</end>
-          <head>46</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>48</start>
-          <end>49</end>
-          <head>48</head>
-          <text>their</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>55</start>
-          <end>56</end>
-          <head>55</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>62</start>
-          <end>63</end>
-          <head>62</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="98">
+      <coreference id="72">
         <mention representative="true">
           <sentence>41</sentence>
           <start>8</start>
@@ -91646,7 +91055,7 @@
           <text>Nathan</text>
         </mention>
       </coreference>
-      <coreference id="99">
+      <coreference id="73">
         <mention representative="true">
           <sentence>41</sentence>
           <start>12</start>
@@ -91683,30 +91092,7 @@
           <text>myself</text>
         </mention>
       </coreference>
-      <coreference id="100">
-        <mention representative="true">
-          <sentence>122</sentence>
-          <start>4</start>
-          <end>14</end>
-          <head>4</head>
-          <text>schools , founded for them by benevolent individuals in Cincinnati</text>
-        </mention>
-        <mention>
-          <sentence>114</sentence>
-          <start>28</start>
-          <end>29</end>
-          <head>28</head>
-          <text>schools</text>
-        </mention>
-        <mention>
-          <sentence>122</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>schools</text>
-        </mention>
-      </coreference>
-      <coreference id="101">
+      <coreference id="74">
         <mention representative="true">
           <sentence>42</sentence>
           <start>4</start>
@@ -91729,7 +91115,7 @@
           <text>me</text>
         </mention>
       </coreference>
-      <coreference id="102">
+      <coreference id="75">
         <mention representative="true">
           <sentence>42</sentence>
           <start>13</start>
@@ -91773,7 +91159,7 @@
           <text>I</text>
         </mention>
       </coreference>
-      <coreference id="103">
+      <coreference id="76">
         <mention representative="true">
           <sentence>46</sentence>
           <start>14</start>
@@ -91810,74 +91196,7 @@
           <text>him</text>
         </mention>
       </coreference>
-      <coreference id="104">
-        <mention representative="true">
-          <sentence>115</sentence>
-          <start>36</start>
-          <end>37</end>
-          <head>36</head>
-          <text>slaves</text>
-        </mention>
-        <mention>
-          <sentence>117</sentence>
-          <start>29</start>
-          <end>30</end>
-          <head>29</head>
-          <text>slaves</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>They</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>20</start>
-          <end>21</end>
-          <head>20</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>30</start>
-          <end>31</end>
-          <head>30</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>125</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>They</text>
-        </mention>
-      </coreference>
-      <coreference id="105">
-        <mention representative="true">
-          <sentence>116</sentence>
-          <start>42</start>
-          <end>45</end>
-          <head>42</head>
-          <text>brethren and friends</text>
-        </mention>
-        <mention>
-          <sentence>116</sentence>
-          <start>50</start>
-          <end>51</end>
-          <head>50</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>116</sentence>
-          <start>64</start>
-          <end>65</end>
-          <head>64</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="106">
+      <coreference id="77">
         <mention representative="true">
           <sentence>48</sentence>
           <start>35</start>
@@ -91893,23 +91212,7 @@
           <text>That letter</text>
         </mention>
       </coreference>
-      <coreference id="107">
-        <mention representative="true">
-          <sentence>117</sentence>
-          <start>11</start>
-          <end>16</end>
-          <head>12</head>
-          <text>the frontier-line of slave states</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>5</start>
-          <end>6</end>
-          <head>5</head>
-          <text>her</text>
-        </mention>
-      </coreference>
-      <coreference id="108">
+      <coreference id="78">
         <mention representative="true">
           <sentence>59</sentence>
           <start>12</start>
@@ -91967,7 +91270,7 @@
           <text>South</text>
         </mention>
       </coreference>
-      <coreference id="109">
+      <coreference id="79">
         <mention representative="true">
           <sentence>50</sentence>
           <start>4</start>
@@ -92025,65 +91328,7 @@
           <text>she</text>
         </mention>
       </coreference>
-      <coreference id="110">
-        <mention representative="true">
-          <sentence>118</sentence>
-          <start>5</start>
-          <end>7</end>
-          <head>6</head>
-          <text>her family</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>22</start>
-          <end>23</end>
-          <head>22</head>
-          <text>she</text>
-        </mention>
-        <mention>
-          <sentence>118</sentence>
-          <start>38</start>
-          <end>39</end>
-          <head>38</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>119</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>She</text>
-        </mention>
-        <mention>
-          <sentence>119</sentence>
-          <start>18</start>
-          <end>19</end>
-          <head>18</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>119</sentence>
-          <start>23</start>
-          <end>24</end>
-          <head>23</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>121</sentence>
-          <start>28</start>
-          <end>29</end>
-          <head>28</head>
-          <text>herself</text>
-        </mention>
-        <mention>
-          <sentence>130</sentence>
-          <start>28</start>
-          <end>30</end>
-          <head>29</head>
-          <text>his family</text>
-        </mention>
-      </coreference>
-      <coreference id="111">
+      <coreference id="80">
         <mention representative="true">
           <sentence>51</sentence>
           <start>4</start>
@@ -92099,7 +91344,7 @@
           <text>our</text>
         </mention>
       </coreference>
-      <coreference id="112">
+      <coreference id="81">
         <mention representative="true">
           <sentence>150</sentence>
           <start>6</start>
@@ -92122,7 +91367,7 @@
           <text>the world</text>
         </mention>
       </coreference>
-      <coreference id="113">
+      <coreference id="82">
         <mention representative="true">
           <sentence>53</sentence>
           <start>15</start>
@@ -92138,37 +91383,7 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="114">
-        <mention representative="true">
-          <sentence>119</sentence>
-          <start>7</start>
-          <end>8</end>
-          <head>7</head>
-          <text>missionaries</text>
-        </mention>
-        <mention>
-          <sentence>121</sentence>
-          <start>5</start>
-          <end>6</end>
-          <head>5</head>
-          <text>they</text>
-        </mention>
-        <mention>
-          <sentence>121</sentence>
-          <start>15</start>
-          <end>16</end>
-          <head>15</head>
-          <text>their</text>
-        </mention>
-        <mention>
-          <sentence>122</sentence>
-          <start>8</start>
-          <end>9</end>
-          <head>8</head>
-          <text>them</text>
-        </mention>
-      </coreference>
-      <coreference id="115">
+      <coreference id="83">
         <mention representative="true">
           <sentence>105</sentence>
           <start>4</start>
@@ -92195,6 +91410,13 @@
           <start>89</start>
           <end>90</end>
           <head>89</head>
+          <text>Christians</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
           <text>Christians</text>
         </mention>
         <mention>
@@ -92226,7 +91448,7 @@
           <text>Christian</text>
         </mention>
       </coreference>
-      <coreference id="116">
+      <coreference id="84">
         <mention representative="true">
           <sentence>54</sentence>
           <start>15</start>
@@ -92242,7 +91464,7 @@
           <text>they</text>
         </mention>
       </coreference>
-      <coreference id="117">
+      <coreference id="85">
         <mention representative="true">
           <sentence>54</sentence>
           <start>26</start>
@@ -92258,7 +91480,7 @@
           <text>the hardest</text>
         </mention>
       </coreference>
-      <coreference id="118">
+      <coreference id="86">
         <mention representative="true">
           <sentence>54</sentence>
           <start>59</start>
@@ -92302,8 +91524,15 @@
           <text>the free states</text>
         </mention>
       </coreference>
-      <coreference id="119">
+      <coreference id="87">
         <mention representative="true">
+          <sentence>54</sentence>
+          <start>63</start>
+          <end>65</end>
+          <head>64</head>
+          <text>the North</text>
+        </mention>
+        <mention>
           <sentence>95</sentence>
           <start>6</start>
           <end>8</end>
@@ -92332,30 +91561,7 @@
           <text>North</text>
         </mention>
       </coreference>
-      <coreference id="120">
-        <mention representative="true">
-          <sentence>121</sentence>
-          <start>35</start>
-          <end>36</end>
-          <head>35</head>
-          <text>teachers</text>
-        </mention>
-        <mention>
-          <sentence>121</sentence>
-          <start>37</start>
-          <end>38</end>
-          <head>37</head>
-          <text>them</text>
-        </mention>
-        <mention>
-          <sentence>121</sentence>
-          <start>39</start>
-          <end>40</end>
-          <head>39</head>
-          <text>they</text>
-        </mention>
-      </coreference>
-      <coreference id="121">
+      <coreference id="88">
         <mention representative="true">
           <sentence>55</sentence>
           <start>3</start>
@@ -92399,30 +91605,7 @@
           <text>its</text>
         </mention>
       </coreference>
-      <coreference id="122">
-        <mention representative="true">
-          <sentence>122</sentence>
-          <start>10</start>
-          <end>14</end>
-          <head>11</head>
-          <text>benevolent individuals in Cincinnati</text>
-        </mention>
-        <mention>
-          <sentence>144</sentence>
-          <start>7</start>
-          <end>9</end>
-          <head>8</head>
-          <text>these individuals</text>
-        </mention>
-        <mention>
-          <sentence>144</sentence>
-          <start>16</start>
-          <end>17</end>
-          <head>16</head>
-          <text>themselves</text>
-        </mention>
-      </coreference>
-      <coreference id="123">
+      <coreference id="89">
         <mention representative="true">
           <sentence>58</sentence>
           <start>7</start>
@@ -92438,97 +91621,23 @@
           <text>her</text>
         </mention>
       </coreference>
-      <coreference id="124">
+      <coreference id="90">
         <mention representative="true">
-          <sentence>126</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>-</text>
+          <sentence>59</sentence>
+          <start>19</start>
+          <end>27</end>
+          <head>19</head>
+          <text>virtue , and magnanimity and purity of character</text>
         </mention>
         <mention>
-          <sentence>127</sentence>
-          <start>16</start>
-          <end>17</end>
-          <head>16</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>128</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>-</text>
-        </mention>
-        <mention>
-          <sentence>129</sentence>
-          <start>20</start>
-          <end>21</end>
-          <head>20</head>
-          <text>himself</text>
-        </mention>
-        <mention>
-          <sentence>129</sentence>
-          <start>47</start>
-          <end>51</end>
-          <head>47</head>
-          <text>himself `` K --</text>
-        </mention>
-        <mention>
-          <sentence>131</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>-</text>
-        </mention>
-        <mention>
-          <sentence>133</sentence>
-          <start>4</start>
-          <end>5</end>
-          <head>4</head>
-          <text>-</text>
+          <sentence>59</sentence>
+          <start>29</start>
+          <end>38</end>
+          <head>30</head>
+          <text>the greater for the severer trial it has encountered</text>
         </mention>
       </coreference>
-      <coreference id="125">
-        <mention representative="true">
-          <sentence>127</sentence>
-          <start>20</start>
-          <end>22</end>
-          <head>21</head>
-          <text>a Baptist</text>
-        </mention>
-        <mention>
-          <sentence>130</sentence>
-          <start>34</start>
-          <end>35</end>
-          <head>34</head>
-          <text>Baptist</text>
-        </mention>
-        <mention>
-          <sentence>134</sentence>
-          <start>28</start>
-          <end>29</end>
-          <head>28</head>
-          <text>Baptist</text>
-        </mention>
-      </coreference>
-      <coreference id="126">
-        <mention representative="true">
-          <sentence>129</sentence>
-          <start>1</start>
-          <end>53</end>
-          <head>2</head>
-          <text>Full black ; stolen from Africa ; sold in New Orleans ; been free fifteen years ; paid for himself six hundred dollars ; a farmer ; owns several farms in Indiana ; Presbyterian ; probably worth fifteen or twenty thousand dollars , all earned by himself `` K -- - .</text>
-        </mention>
-        <mention>
-          <sentence>130</sentence>
-          <start>2</start>
-          <end>3</end>
-          <head>2</head>
-          <text>black</text>
-        </mention>
-      </coreference>
-      <coreference id="127">
+      <coreference id="91">
         <mention representative="true">
           <sentence>60</sentence>
           <start>26</start>
@@ -92544,7 +91653,7 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="128">
+      <coreference id="92">
         <mention representative="true">
           <sentence>64</sentence>
           <start>9</start>
@@ -92560,54 +91669,15 @@
           <text>the result</text>
         </mention>
       </coreference>
-      <coreference id="129">
+      <coreference id="93">
         <mention representative="true">
-          <sentence>130</sentence>
-          <start>4</start>
-          <end>8</end>
-          <head>4</head>
-          <text>dealer in real estate</text>
+          <sentence>66</sentence>
+          <start>10</start>
+          <end>18</end>
+          <head>11</head>
+          <text>the debased , by slave law , own</text>
         </mention>
         <mention>
-          <sentence>130</sentence>
-          <start>28</start>
-          <end>29</end>
-          <head>28</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>130</sentence>
-          <start>41</start>
-          <end>42</end>
-          <head>41</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>130</sentence>
-          <start>45</start>
-          <end>46</end>
-          <head>45</head>
-          <text>he</text>
-        </mention>
-      </coreference>
-      <coreference id="130">
-        <mention representative="true">
-          <sentence>130</sentence>
-          <start>33</start>
-          <end>36</end>
-          <head>35</head>
-          <text>the Baptist church</text>
-        </mention>
-        <mention>
-          <sentence>134</sentence>
-          <start>27</start>
-          <end>30</end>
-          <head>29</head>
-          <text>the Baptist church</text>
-        </mention>
-      </coreference>
-      <coreference id="131">
-        <mention representative="true">
           <sentence>65</sentence>
           <start>36</start>
           <end>38</end>
@@ -92629,90 +91699,30 @@
           <text>the brutal</text>
         </mention>
       </coreference>
-      <coreference id="132">
+      <coreference id="94">
         <mention representative="true">
-          <sentence>132</sentence>
-          <start>53</start>
-          <end>55</end>
-          <head>54</head>
-          <text>his master</text>
+          <sentence>67</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>3</head>
+          <text>the honorable</text>
         </mention>
         <mention>
-          <sentence>140</sentence>
-          <start>48</start>
-          <end>50</end>
-          <head>49</head>
-          <text>his master</text>
+          <sentence>67</sentence>
+          <start>5</start>
+          <end>12</end>
+          <head>6</head>
+          <text>the just , the high-minded and compassionate</text>
+        </mention>
+        <mention>
+          <sentence>67</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>the just</text>
         </mention>
       </coreference>
-      <coreference id="133">
-        <mention representative="true">
-          <sentence>131</sentence>
-          <start>1</start>
-          <end>6</end>
-          <head>2</head>
-          <text>`` G -- - .</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>19</start>
-          <end>20</end>
-          <head>19</head>
-          <text>himself</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>35</start>
-          <end>36</end>
-          <head>35</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>38</start>
-          <end>39</end>
-          <head>38</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>50</start>
-          <end>51</end>
-          <head>50</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>53</start>
-          <end>54</end>
-          <head>53</head>
-          <text>his</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>60</start>
-          <end>61</end>
-          <head>60</head>
-          <text>himself</text>
-        </mention>
-      </coreference>
-      <coreference id="134">
-        <mention representative="true">
-          <sentence>132</sentence>
-          <start>26</start>
-          <end>32</end>
-          <head>27</head>
-          <text>the amount of sixteen hundred dollars</text>
-        </mention>
-        <mention>
-          <sentence>132</sentence>
-          <start>44</start>
-          <end>45</end>
-          <head>44</head>
-          <text>it</text>
-        </mention>
-      </coreference>
-      <coreference id="135">
+      <coreference id="95">
         <mention representative="true">
           <sentence>111</sentence>
           <start>17</start>
@@ -92742,6 +91752,13 @@
           <text>that</text>
         </mention>
         <mention>
+          <sentence>112</sentence>
+          <start>26</start>
+          <end>48</end>
+          <head>27</head>
+          <text>no reason why the church of Christ should throw off that responsibility to this outcast race which her profession demands of her</text>
+        </mention>
+        <mention>
           <sentence>129</sentence>
           <start>6</start>
           <end>7</end>
@@ -92749,23 +91766,7 @@
           <text>Africa</text>
         </mention>
       </coreference>
-      <coreference id="136">
-        <mention representative="true">
-          <sentence>132</sentence>
-          <start>46</start>
-          <end>48</end>
-          <head>47</head>
-          <text>a slave</text>
-        </mention>
-        <mention>
-          <sentence>139</sentence>
-          <start>7</start>
-          <end>9</end>
-          <head>8</head>
-          <text>a slave</text>
-        </mention>
-      </coreference>
-      <coreference id="137">
+      <coreference id="96">
         <mention representative="true">
           <sentence>69</sentence>
           <start>2</start>
@@ -92781,7 +91782,7 @@
           <text>its</text>
         </mention>
       </coreference>
-      <coreference id="138">
+      <coreference id="97">
         <mention representative="true">
           <sentence>70</sentence>
           <start>2</start>
@@ -92797,7 +91798,7 @@
           <text>they</text>
         </mention>
       </coreference>
-      <coreference id="139">
+      <coreference id="98">
         <mention representative="true">
           <sentence>70</sentence>
           <start>2</start>
@@ -92813,23 +91814,23 @@
           <text>its</text>
         </mention>
       </coreference>
-      <coreference id="140">
+      <coreference id="99">
         <mention representative="true">
-          <sentence>134</sentence>
-          <start>17</start>
-          <end>20</end>
-          <head>17</head>
-          <text>self and family</text>
+          <sentence>71</sentence>
+          <start>5</start>
+          <end>9</end>
+          <head>8</head>
+          <text>only a faint shadow</text>
         </mention>
         <mention>
-          <sentence>136</sentence>
-          <start>18</start>
-          <end>21</end>
-          <head>18</head>
-          <text>self and family</text>
+          <sentence>71</sentence>
+          <start>10</start>
+          <end>13</end>
+          <head>12</head>
+          <text>a dim picture</text>
         </mention>
       </coreference>
-      <coreference id="141">
+      <coreference id="100">
         <mention representative="true">
           <sentence>71</sentence>
           <start>28</start>
@@ -92845,7 +91846,7 @@
           <text>their</text>
         </mention>
       </coreference>
-      <coreference id="142">
+      <coreference id="101">
         <mention representative="true">
           <sentence>72</sentence>
           <start>3</start>
@@ -92861,127 +91862,7 @@
           <text>themselves seeking in death a shelter from woes more dreaded than death</text>
         </mention>
       </coreference>
-      <coreference id="143">
-        <mention representative="true">
-          <sentence>137</sentence>
-          <start>1</start>
-          <end>3</end>
-          <head>2</head>
-          <text>Professor Stowe</text>
-        </mention>
-        <mention>
-          <sentence>137</sentence>
-          <start>15</start>
-          <end>16</end>
-          <head>15</head>
-          <text>I</text>
-        </mention>
-        <mention>
-          <sentence>137</sentence>
-          <start>28</start>
-          <end>29</end>
-          <head>28</head>
-          <text>my</text>
-        </mention>
-        <mention>
-          <sentence>137</sentence>
-          <start>31</start>
-          <end>32</end>
-          <head>31</head>
-          <text>my</text>
-        </mention>
-      </coreference>
-      <coreference id="144">
-        <mention representative="true">
-          <sentence>137</sentence>
-          <start>8</start>
-          <end>9</end>
-          <head>8</head>
-          <text>these</text>
-        </mention>
-        <mention>
-          <sentence>143</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>These</text>
-        </mention>
-      </coreference>
-      <coreference id="145">
-        <mention representative="true">
-          <sentence>139</sentence>
-          <start>4</start>
-          <end>6</end>
-          <head>5</head>
-          <text>this woman</text>
-        </mention>
-        <mention>
-          <sentence>138</sentence>
-          <start>17</start>
-          <end>18</end>
-          <head>17</head>
-          <text>her</text>
-        </mention>
-      </coreference>
-      <coreference id="146">
-        <mention representative="true">
-          <sentence>139</sentence>
-          <start>1</start>
-          <end>6</end>
-          <head>2</head>
-          <text>The daughter of this woman</text>
-        </mention>
-        <mention>
-          <sentence>140</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>She</text>
-        </mention>
-        <mention>
-          <sentence>140</sentence>
-          <start>14</start>
-          <end>15</end>
-          <head>14</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>140</sentence>
-          <start>30</start>
-          <end>31</end>
-          <head>30</head>
-          <text>her</text>
-        </mention>
-        <mention>
-          <sentence>140</sentence>
-          <start>36</start>
-          <end>37</end>
-          <head>36</head>
-          <text>she</text>
-        </mention>
-        <mention>
-          <sentence>140</sentence>
-          <start>40</start>
-          <end>41</end>
-          <head>40</head>
-          <text>she</text>
-        </mention>
-        <mention>
-          <sentence>141</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>She</text>
-        </mention>
-        <mention>
-          <sentence>142</sentence>
-          <start>1</start>
-          <end>2</end>
-          <head>1</head>
-          <text>She</text>
-        </mention>
-      </coreference>
-      <coreference id="147">
+      <coreference id="102">
         <mention representative="true">
           <sentence>74</sentence>
           <start>45</start>
@@ -93074,7 +91955,7 @@
           <text>his</text>
         </mention>
       </coreference>
-      <coreference id="148">
+      <coreference id="103">
         <mention representative="true">
           <sentence>75</sentence>
           <start>8</start>
@@ -93118,7 +91999,1579 @@
           <text>its</text>
         </mention>
       </coreference>
+      <coreference id="104">
+        <mention representative="true">
+          <sentence>75</sentence>
+          <start>4</start>
+          <end>9</end>
+          <head>4</head>
+          <text>men and women of America</text>
+        </mention>
+        <mention>
+          <sentence>102</sentence>
+          <start>21</start>
+          <end>24</end>
+          <head>21</head>
+          <text>men and women</text>
+        </mention>
+      </coreference>
+      <coreference id="105">
+        <mention representative="true">
+          <sentence>77</sentence>
+          <start>1</start>
+          <end>8</end>
+          <head>1</head>
+          <text>Brave and generous men of New York</text>
+        </mention>
+        <mention>
+          <sentence>77</sentence>
+          <start>17</start>
+          <end>23</end>
+          <head>17</head>
+          <text>ye of the wide prairie states</text>
+        </mention>
+      </coreference>
+      <coreference id="106">
+        <mention representative="true">
+          <sentence>77</sentence>
+          <start>3</start>
+          <end>8</end>
+          <head>4</head>
+          <text>generous men of New York</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>2</start>
+          <end>102</end>
+          <head>2</head>
+          <text>you , mothers of America , -- you who have learned , by the cradles of your own children , to love and feel for all mankind , -- by the sacred love you bear your child ; by your joy in his beautiful , spotless infancy ; by the motherly pity and tenderness with which you guide his growing years ; by the anxieties of his education ; by the prayers you breathe for his soul 's eternal good ; -- I beseech you , pity the mother who has all your affections , and not one legal right</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>9</start>
+          <end>85</end>
+          <head>9</head>
+          <text>you who have learned , by the cradles of your own children , to love and feel for all mankind , -- by the sacred love you bear your child ; by your joy in his beautiful , spotless infancy ; by the motherly pity and tenderness with which you guide his growing years ; by the anxieties of his education ; by the prayers you breathe for his soul 's eternal good ; -- I</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>86</start>
+          <end>96</end>
+          <head>86</head>
+          <text>you , pity the mother who has all your affections</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>82</start>
+          <end>83</end>
+          <head>82</head>
+          <text>men</text>
+        </mention>
+        <mention>
+          <sentence>115</sentence>
+          <start>33</start>
+          <end>34</end>
+          <head>33</head>
+          <text>men</text>
+        </mention>
+        <mention>
+          <sentence>147</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>men</text>
+        </mention>
+      </coreference>
+      <coreference id="107">
+        <mention representative="true">
+          <sentence>79</sentence>
+          <start>55</start>
+          <end>57</end>
+          <head>56</head>
+          <text>those mothers</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>2</start>
+          <end>7</end>
+          <head>2</head>
+          <text>you , mothers of America</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>you</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>4</start>
+          <end>7</end>
+          <head>4</head>
+          <text>mothers of America</text>
+        </mention>
+        <mention>
+          <sentence>80</sentence>
+          <start>4</start>
+          <end>7</end>
+          <head>4</head>
+          <text>mothers of America</text>
+        </mention>
+        <mention>
+          <sentence>80</sentence>
+          <start>9</start>
+          <end>23</end>
+          <head>9</head>
+          <text>this a thing to be defended , sympathized with , passed over in silence</text>
+        </mention>
+        <mention>
+          <sentence>82</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>this</text>
+        </mention>
+      </coreference>
+      <coreference id="108">
+        <mention representative="true">
+          <sentence>78</sentence>
+          <start>18</start>
+          <end>21</end>
+          <head>20</head>
+          <text>your own children</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>38</start>
+          <end>41</end>
+          <head>40</head>
+          <text>her own children</text>
+        </mention>
+      </coreference>
+      <coreference id="109">
+        <mention representative="true">
+          <sentence>78</sentence>
+          <start>37</start>
+          <end>39</end>
+          <head>38</head>
+          <text>your child</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>44</start>
+          <end>45</end>
+          <head>44</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>60</start>
+          <end>61</end>
+          <head>60</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>68</start>
+          <end>69</end>
+          <head>68</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>78</sentence>
+          <start>77</start>
+          <end>78</end>
+          <head>77</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>79</sentence>
+          <start>6</start>
+          <end>8</end>
+          <head>7</head>
+          <text>your child</text>
+        </mention>
+      </coreference>
+      <coreference id="110">
+        <mention representative="true">
+          <sentence>78</sentence>
+          <start>113</start>
+          <end>115</end>
+          <head>114</head>
+          <text>her bosom</text>
+        </mention>
+        <mention>
+          <sentence>159</sentence>
+          <start>11</start>
+          <end>13</end>
+          <head>12</head>
+          <text>her bosom</text>
+        </mention>
+      </coreference>
+      <coreference id="111">
+        <mention representative="true">
+          <sentence>79</sentence>
+          <start>21</start>
+          <end>24</end>
+          <head>22</head>
+          <text>those last cries</text>
+        </mention>
+        <mention>
+          <sentence>79</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>those</text>
+        </mention>
+        <mention>
+          <sentence>117</sentence>
+          <start>25</start>
+          <end>30</end>
+          <head>25</head>
+          <text>those who formerly were slaves</text>
+        </mention>
+      </coreference>
+      <coreference id="112">
+        <mention representative="true">
+          <sentence>79</sentence>
+          <start>41</start>
+          <end>44</end>
+          <head>43</head>
+          <text>that empty cradle</text>
+        </mention>
+        <mention>
+          <sentence>79</sentence>
+          <start>45</start>
+          <end>48</end>
+          <head>47</head>
+          <text>that silent nursery</text>
+        </mention>
+      </coreference>
+      <coreference id="113">
+        <mention representative="true">
+          <sentence>81</sentence>
+          <start>8</start>
+          <end>11</end>
+          <head>10</head>
+          <text>the free state</text>
+        </mention>
+        <mention>
+          <sentence>81</sentence>
+          <start>16</start>
+          <end>17</end>
+          <head>16</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>83</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>84</sentence>
+          <start>20</start>
+          <end>21</end>
+          <head>20</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference id="114">
+        <mention representative="true">
+          <sentence>84</sentence>
+          <start>1</start>
+          <end>7</end>
+          <head>2</head>
+          <text>The people of the free states</text>
+        </mention>
+        <mention>
+          <sentence>84</sentence>
+          <start>31</start>
+          <end>32</end>
+          <head>31</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="115">
+        <mention representative="true">
+          <sentence>85</sentence>
+          <start>2</start>
+          <end>8</end>
+          <head>3</head>
+          <text>the mothers of the free states</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="116">
+        <mention representative="true">
+          <sentence>85</sentence>
+          <start>19</start>
+          <end>25</end>
+          <head>20</head>
+          <text>the sons of the free states</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>42</start>
+          <end>48</end>
+          <head>43</head>
+          <text>the sons of the free states</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>63</start>
+          <end>69</end>
+          <head>64</head>
+          <text>the sons of the free states</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>73</start>
+          <end>74</end>
+          <head>73</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>85</sentence>
+          <start>90</start>
+          <end>91</end>
+          <head>90</head>
+          <text>their</text>
+        </mention>
+      </coreference>
+      <coreference id="117">
+        <mention representative="true">
+          <sentence>87</sentence>
+          <start>4</start>
+          <end>9</end>
+          <head>5</head>
+          <text>northern mothers , northern Christians</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>Northern men</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>4</start>
+          <end>6</end>
+          <head>5</head>
+          <text>northern mothers</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>their</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>23</start>
+          <end>24</end>
+          <head>23</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>87</sentence>
+          <start>31</start>
+          <end>32</end>
+          <head>31</head>
+          <text>themselves</text>
+        </mention>
+      </coreference>
+      <coreference id="118">
+        <mention representative="true">
+          <sentence>90</sentence>
+          <start>3</start>
+          <end>10</end>
+          <head>4</head>
+          <text>one thing that every individual can do</text>
+        </mention>
+        <mention>
+          <sentence>90</sentence>
+          <start>16</start>
+          <end>17</end>
+          <head>16</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference id="119">
+        <mention representative="true">
+          <sentence>91</sentence>
+          <start>12</start>
+          <end>21</end>
+          <head>13</head>
+          <text>the man or woman who feels strongly , healthily</text>
+        </mention>
+        <mention>
+          <sentence>93</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>94</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="120">
+        <mention representative="true">
+          <sentence>96</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>another power</text>
+        </mention>
+        <mention>
+          <sentence>98</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>156</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>this power</text>
+        </mention>
+        <mention>
+          <sentence>156</sentence>
+          <start>25</start>
+          <end>26</end>
+          <head>25</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference id="121">
+        <mention representative="true">
+          <sentence>99</sentence>
+          <start>4</start>
+          <end>6</end>
+          <head>5</head>
+          <text>the heathen</text>
+        </mention>
+        <mention>
+          <sentence>99</sentence>
+          <start>11</start>
+          <end>13</end>
+          <head>12</head>
+          <text>the heathen</text>
+        </mention>
+      </coreference>
+      <coreference id="122">
+        <mention representative="true">
+          <sentence>100</sentence>
+          <start>29</start>
+          <end>30</end>
+          <head>29</head>
+          <text>Christianity</text>
+        </mention>
+        <mention>
+          <sentence>102</sentence>
+          <start>62</start>
+          <end>63</end>
+          <head>62</head>
+          <text>Christianity</text>
+        </mention>
+        <mention>
+          <sentence>103</sentence>
+          <start>18</start>
+          <end>19</end>
+          <head>18</head>
+          <text>Christianity</text>
+        </mention>
+      </coreference>
+      <coreference id="123">
+        <mention representative="true">
+          <sentence>100</sentence>
+          <start>4</start>
+          <end>54</end>
+          <head>6</head>
+          <text>those distressed Christians whose whole chance of religious improvement is an accident of trade and sale ; from whom any adherence to the morals of Christianity is , in many cases , an impossibility , unless they have given them , from above , the courage and grace of martyrdom</text>
+        </mention>
+        <mention>
+          <sentence>104</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>oh Christians</text>
+        </mention>
+        <mention>
+          <sentence>160</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>1</head>
+          <text>Christians !</text>
+        </mention>
+      </coreference>
+      <coreference id="124">
+        <mention representative="true">
+          <sentence>100</sentence>
+          <start>40</start>
+          <end>41</end>
+          <head>40</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>100</sentence>
+          <start>43</start>
+          <end>44</end>
+          <head>43</head>
+          <text>them</text>
+        </mention>
+      </coreference>
+      <coreference id="125">
+        <mention representative="true">
+          <sentence>102</sentence>
+          <start>2</start>
+          <end>12</end>
+          <head>3</head>
+          <text>the shores of our free states are emerging the poor</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>51</start>
+          <end>53</end>
+          <head>52</head>
+          <text>those shores</text>
+        </mention>
+      </coreference>
+      <coreference id="126">
+        <mention representative="true">
+          <sentence>102</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>the poor</text>
+        </mention>
+        <mention>
+          <sentence>103</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>They</text>
+        </mention>
+        <mention>
+          <sentence>103</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="127">
+        <mention representative="true">
+          <sentence>102</sentence>
+          <start>15</start>
+          <end>19</end>
+          <head>16</head>
+          <text>broken remnants of families</text>
+        </mention>
+        <mention>
+          <sentence>102</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>shattered</text>
+        </mention>
+      </coreference>
+      <coreference id="128">
+        <mention representative="true">
+          <sentence>147</sentence>
+          <start>18</start>
+          <end>43</end>
+          <head>18</head>
+          <text>slavery , who , by a self-educating force , which can not be too much admired , have risen to highly respectable stations in society</text>
+        </mention>
+        <mention>
+          <sentence>102</sentence>
+          <start>34</start>
+          <end>40</end>
+          <head>34</head>
+          <text>slavery , -- feeble in knowledge</text>
+        </mention>
+      </coreference>
+      <coreference id="129">
+        <mention representative="true">
+          <sentence>104</sentence>
+          <start>6</start>
+          <end>9</end>
+          <head>8</head>
+          <text>these poor unfortunates</text>
+        </mention>
+        <mention>
+          <sentence>105</sentence>
+          <start>25</start>
+          <end>26</end>
+          <head>25</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>106</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>107</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>108</sentence>
+          <start>15</start>
+          <end>16</end>
+          <head>15</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>108</sentence>
+          <start>25</start>
+          <end>26</end>
+          <head>25</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>108</sentence>
+          <start>41</start>
+          <end>42</end>
+          <head>41</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>111</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>We</text>
+        </mention>
+      </coreference>
+      <coreference id="130">
+        <mention representative="true">
+          <sentence>106</sentence>
+          <start>1</start>
+          <end>12</end>
+          <head>1</head>
+          <text>Shall the doors of churches and school-houses be shut upon them</text>
+        </mention>
+        <mention>
+          <sentence>107</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Shall</text>
+        </mention>
+      </coreference>
+      <coreference id="131">
+        <mention representative="true">
+          <sentence>108</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>1</head>
+          <text>Shall the church of Christ</text>
+        </mention>
+        <mention>
+          <sentence>108</sentence>
+          <start>32</start>
+          <end>33</end>
+          <head>32</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+      <coreference id="132">
+        <mention representative="true">
+          <sentence>109</sentence>
+          <start>10</start>
+          <end>13</end>
+          <head>12</head>
+          <text>a mournful spectacle</text>
+        </mention>
+        <mention>
+          <sentence>108</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>3</head>
+          <text>the church</text>
+        </mention>
+        <mention>
+          <sentence>109</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>109</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>110</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>it</text>
+        </mention>
+        <mention>
+          <sentence>110</sentence>
+          <start>16</start>
+          <end>17</end>
+          <head>16</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference id="133">
+        <mention representative="true">
+          <sentence>108</sentence>
+          <start>43</start>
+          <end>44</end>
+          <head>43</head>
+          <text>our</text>
+        </mention>
+        <mention>
+          <sentence>111</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>111</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>them</text>
+        </mention>
+      </coreference>
+      <coreference id="134">
+        <mention representative="true">
+          <sentence>110</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>nations</text>
+        </mention>
+        <mention>
+          <sentence>150</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>nations</text>
+        </mention>
+        <mention>
+          <sentence>164</sentence>
+          <start>66</start>
+          <end>67</end>
+          <head>66</head>
+          <text>nations</text>
+        </mention>
+      </coreference>
+      <coreference id="135">
+        <mention representative="true">
+          <sentence>155</sentence>
+          <start>3</start>
+          <end>6</end>
+          <head>3</head>
+          <text>Church of Christ</text>
+        </mention>
+        <mention>
+          <sentence>112</sentence>
+          <start>29</start>
+          <end>33</end>
+          <head>30</head>
+          <text>the church of Christ</text>
+        </mention>
+      </coreference>
+      <coreference id="136">
+        <mention representative="true">
+          <sentence>112</sentence>
+          <start>43</start>
+          <end>44</end>
+          <head>43</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>112</sentence>
+          <start>47</start>
+          <end>48</end>
+          <head>47</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+      <coreference id="137">
+        <mention representative="true">
+          <sentence>113</sentence>
+          <start>6</start>
+          <end>13</end>
+          <head>12</head>
+          <text>an ignorant , inexperienced , half-barbarized race</text>
+        </mention>
+        <mention>
+          <sentence>119</sentence>
+          <start>33</start>
+          <end>35</end>
+          <head>34</head>
+          <text>the race</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>43</start>
+          <end>45</end>
+          <head>44</head>
+          <text>the race</text>
+        </mention>
+      </coreference>
+      <coreference id="138">
+        <mention representative="true">
+          <sentence>114</sentence>
+          <start>8</start>
+          <end>16</end>
+          <head>10</head>
+          <text>these poor sufferers in the spirit of Christ</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>18</start>
+          <end>19</end>
+          <head>18</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>31</start>
+          <end>32</end>
+          <head>31</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>46</start>
+          <end>47</end>
+          <head>46</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>48</start>
+          <end>49</end>
+          <head>48</head>
+          <text>their</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>55</start>
+          <end>56</end>
+          <head>55</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>62</start>
+          <end>63</end>
+          <head>62</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="139">
+        <mention representative="true">
+          <sentence>122</sentence>
+          <start>4</start>
+          <end>14</end>
+          <head>4</head>
+          <text>schools , founded for them by benevolent individuals in Cincinnati</text>
+        </mention>
+        <mention>
+          <sentence>114</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>schools</text>
+        </mention>
+        <mention>
+          <sentence>122</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>schools</text>
+        </mention>
+      </coreference>
+      <coreference id="140">
+        <mention representative="true">
+          <sentence>123</sentence>
+          <start>30</start>
+          <end>54</end>
+          <head>30</head>
+          <text>slaves , now resident in Cincinnati ; given to show the capability of the race , even without any very particular assistance or encouragement</text>
+        </mention>
+        <mention>
+          <sentence>115</sentence>
+          <start>36</start>
+          <end>37</end>
+          <head>36</head>
+          <text>slaves</text>
+        </mention>
+        <mention>
+          <sentence>117</sentence>
+          <start>29</start>
+          <end>30</end>
+          <head>29</head>
+          <text>slaves</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>They</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>20</start>
+          <end>21</end>
+          <head>20</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>30</start>
+          <end>31</end>
+          <head>30</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>30</start>
+          <end>31</end>
+          <head>30</head>
+          <text>slaves</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>33</start>
+          <end>45</end>
+          <head>33</head>
+          <text>resident in Cincinnati ; given to show the capability of the race</text>
+        </mention>
+        <mention>
+          <sentence>125</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>They</text>
+        </mention>
+      </coreference>
+      <coreference id="141">
+        <mention representative="true">
+          <sentence>116</sentence>
+          <start>42</start>
+          <end>45</end>
+          <head>42</head>
+          <text>brethren and friends</text>
+        </mention>
+        <mention>
+          <sentence>116</sentence>
+          <start>50</start>
+          <end>51</end>
+          <head>50</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>116</sentence>
+          <start>64</start>
+          <end>65</end>
+          <head>64</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="142">
+        <mention representative="true">
+          <sentence>117</sentence>
+          <start>11</start>
+          <end>16</end>
+          <head>12</head>
+          <text>the frontier-line of slave states</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+      <coreference id="143">
+        <mention representative="true">
+          <sentence>118</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>her family</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>118</sentence>
+          <start>38</start>
+          <end>39</end>
+          <head>38</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>119</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+        <mention>
+          <sentence>119</sentence>
+          <start>18</start>
+          <end>19</end>
+          <head>18</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>119</sentence>
+          <start>23</start>
+          <end>24</end>
+          <head>23</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>121</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>herself</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>28</start>
+          <end>30</end>
+          <head>29</head>
+          <text>his family</text>
+        </mention>
+      </coreference>
+      <coreference id="144">
+        <mention representative="true">
+          <sentence>119</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>missionaries</text>
+        </mention>
+        <mention>
+          <sentence>121</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>they</text>
+        </mention>
+        <mention>
+          <sentence>121</sentence>
+          <start>15</start>
+          <end>16</end>
+          <head>15</head>
+          <text>their</text>
+        </mention>
+        <mention>
+          <sentence>122</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>them</text>
+        </mention>
+      </coreference>
+      <coreference id="145">
+        <mention representative="true">
+          <sentence>121</sentence>
+          <start>35</start>
+          <end>36</end>
+          <head>35</head>
+          <text>teachers</text>
+        </mention>
+        <mention>
+          <sentence>121</sentence>
+          <start>37</start>
+          <end>38</end>
+          <head>37</head>
+          <text>them</text>
+        </mention>
+        <mention>
+          <sentence>121</sentence>
+          <start>39</start>
+          <end>40</end>
+          <head>39</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+      <coreference id="146">
+        <mention representative="true">
+          <sentence>122</sentence>
+          <start>10</start>
+          <end>14</end>
+          <head>11</head>
+          <text>benevolent individuals in Cincinnati</text>
+        </mention>
+        <mention>
+          <sentence>144</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>these individuals</text>
+        </mention>
+        <mention>
+          <sentence>144</sentence>
+          <start>16</start>
+          <end>17</end>
+          <head>16</head>
+          <text>themselves</text>
+        </mention>
+      </coreference>
+      <coreference id="147">
+        <mention representative="true">
+          <sentence>123</sentence>
+          <start>15</start>
+          <end>18</end>
+          <head>17</head>
+          <text>C. E. Stowe</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>16</start>
+          <end>25</end>
+          <head>17</head>
+          <text>E. Stowe , then of Lane Seminary , Ohio</text>
+        </mention>
+        <mention>
+          <sentence>123</sentence>
+          <start>19</start>
+          <end>23</end>
+          <head>19</head>
+          <text>then of Lane Seminary</text>
+        </mention>
+      </coreference>
+      <coreference id="148">
+        <mention representative="true">
+          <sentence>126</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>-</text>
+        </mention>
+        <mention>
+          <sentence>127</sentence>
+          <start>16</start>
+          <end>17</end>
+          <head>16</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>128</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>-</text>
+        </mention>
+        <mention>
+          <sentence>129</sentence>
+          <start>20</start>
+          <end>21</end>
+          <head>20</head>
+          <text>himself</text>
+        </mention>
+        <mention>
+          <sentence>129</sentence>
+          <start>47</start>
+          <end>51</end>
+          <head>47</head>
+          <text>himself `` K --</text>
+        </mention>
+        <mention>
+          <sentence>131</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>-</text>
+        </mention>
+        <mention>
+          <sentence>133</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>-</text>
+        </mention>
+      </coreference>
       <coreference id="149">
+        <mention representative="true">
+          <sentence>127</sentence>
+          <start>20</start>
+          <end>22</end>
+          <head>21</head>
+          <text>a Baptist</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>34</start>
+          <end>35</end>
+          <head>34</head>
+          <text>Baptist</text>
+        </mention>
+        <mention>
+          <sentence>134</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>Baptist</text>
+        </mention>
+      </coreference>
+      <coreference id="150">
+        <mention representative="true">
+          <sentence>129</sentence>
+          <start>1</start>
+          <end>53</end>
+          <head>2</head>
+          <text>Full black ; stolen from Africa ; sold in New Orleans ; been free fifteen years ; paid for himself six hundred dollars ; a farmer ; owns several farms in Indiana ; Presbyterian ; probably worth fifteen or twenty thousand dollars , all earned by himself `` K -- - .</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>black</text>
+        </mention>
+      </coreference>
+      <coreference id="151">
+        <mention representative="true">
+          <sentence>130</sentence>
+          <start>4</start>
+          <end>8</end>
+          <head>4</head>
+          <text>dealer in real estate</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>41</start>
+          <end>42</end>
+          <head>41</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>45</start>
+          <end>46</end>
+          <head>45</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+      <coreference id="152">
+        <mention representative="true">
+          <sentence>130</sentence>
+          <start>33</start>
+          <end>36</end>
+          <head>35</head>
+          <text>the Baptist church</text>
+        </mention>
+        <mention>
+          <sentence>134</sentence>
+          <start>27</start>
+          <end>30</end>
+          <head>29</head>
+          <text>the Baptist church</text>
+        </mention>
+      </coreference>
+      <coreference id="153">
+        <mention representative="true">
+          <sentence>130</sentence>
+          <start>41</start>
+          <end>51</end>
+          <head>42</head>
+          <text>his master , which he has taken good care of</text>
+        </mention>
+        <mention>
+          <sentence>130</sentence>
+          <start>41</start>
+          <end>43</end>
+          <head>42</head>
+          <text>his master</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>53</start>
+          <end>55</end>
+          <head>54</head>
+          <text>his master</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>48</start>
+          <end>50</end>
+          <head>49</head>
+          <text>his master</text>
+        </mention>
+      </coreference>
+      <coreference id="154">
+        <mention representative="true">
+          <sentence>131</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>2</head>
+          <text>`` G -- - .</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>19</start>
+          <end>20</end>
+          <head>19</head>
+          <text>himself</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>35</start>
+          <end>36</end>
+          <head>35</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>38</start>
+          <end>39</end>
+          <head>38</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>50</start>
+          <end>51</end>
+          <head>50</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>53</start>
+          <end>54</end>
+          <head>53</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>60</start>
+          <end>61</end>
+          <head>60</head>
+          <text>himself</text>
+        </mention>
+      </coreference>
+      <coreference id="155">
+        <mention representative="true">
+          <sentence>132</sentence>
+          <start>26</start>
+          <end>32</end>
+          <head>27</head>
+          <text>the amount of sixteen hundred dollars</text>
+        </mention>
+        <mention>
+          <sentence>132</sentence>
+          <start>44</start>
+          <end>45</end>
+          <head>44</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference id="156">
+        <mention representative="true">
+          <sentence>132</sentence>
+          <start>46</start>
+          <end>48</end>
+          <head>47</head>
+          <text>a slave</text>
+        </mention>
+        <mention>
+          <sentence>139</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>a slave</text>
+        </mention>
+      </coreference>
+      <coreference id="157">
+        <mention representative="true">
+          <sentence>134</sentence>
+          <start>17</start>
+          <end>20</end>
+          <head>17</head>
+          <text>self and family</text>
+        </mention>
+        <mention>
+          <sentence>136</sentence>
+          <start>18</start>
+          <end>21</end>
+          <head>18</head>
+          <text>self and family</text>
+        </mention>
+      </coreference>
+      <coreference id="158">
+        <mention representative="true">
+          <sentence>137</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>Professor Stowe</text>
+        </mention>
+        <mention>
+          <sentence>137</sentence>
+          <start>15</start>
+          <end>16</end>
+          <head>15</head>
+          <text>I</text>
+        </mention>
+        <mention>
+          <sentence>137</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>my</text>
+        </mention>
+        <mention>
+          <sentence>137</sentence>
+          <start>31</start>
+          <end>32</end>
+          <head>31</head>
+          <text>my</text>
+        </mention>
+      </coreference>
+      <coreference id="159">
+        <mention representative="true">
+          <sentence>137</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>these</text>
+        </mention>
+        <mention>
+          <sentence>143</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>These</text>
+        </mention>
+      </coreference>
+      <coreference id="160">
+        <mention representative="true">
+          <sentence>138</sentence>
+          <start>5</start>
+          <end>9</end>
+          <head>8</head>
+          <text>an aged colored woman</text>
+        </mention>
+        <mention>
+          <sentence>138</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>139</sentence>
+          <start>4</start>
+          <end>6</end>
+          <head>5</head>
+          <text>this woman</text>
+        </mention>
+      </coreference>
+      <coreference id="161">
+        <mention representative="true">
+          <sentence>139</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>2</head>
+          <text>The daughter of this woman</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>30</start>
+          <end>31</end>
+          <head>30</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>36</start>
+          <end>37</end>
+          <head>36</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>40</start>
+          <end>41</end>
+          <head>40</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>141</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+        <mention>
+          <sentence>142</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+      </coreference>
+      <coreference id="162">
         <mention representative="true">
           <sentence>140</sentence>
           <start>20</start>
@@ -93134,7 +93587,30 @@
           <text>it</text>
         </mention>
       </coreference>
-      <coreference id="150">
+      <coreference id="163">
+        <mention representative="true">
+          <sentence>143</sentence>
+          <start>16</start>
+          <end>18</end>
+          <head>17</head>
+          <text>the self-denial</text>
+        </mention>
+        <mention>
+          <sentence>140</sentence>
+          <start>23</start>
+          <end>24</end>
+          <head>23</head>
+          <text>self-denial</text>
+        </mention>
+        <mention>
+          <sentence>143</sentence>
+          <start>19</start>
+          <end>25</end>
+          <head>19</head>
+          <text>energy , patience , and honesty</text>
+        </mention>
+      </coreference>
+      <coreference id="164">
         <mention representative="true">
           <sentence>140</sentence>
           <start>30</start>
