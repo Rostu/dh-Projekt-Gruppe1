@@ -1,0 +1,23 @@
+Adding annotator tokenize
+TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+Adding annotator ssplit
+edu.stanford.nlp.pipeline.AnnotatorImplementations:
+Adding annotator pos
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [0,9 sec].
+Adding annotator lemma
+Adding annotator ner
+Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [2,7 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [2,4 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [1,9 sec].
+sutime.binder.1.
+Initializing JollyDayHoliday for sutime with classpath:edu/stanford/nlp/models/sutime/jollyday/Holidays_sutime.xml
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+Feb 08, 2015 6:25:29 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+INFORMATION: Ignoring inactive rule: null
+Feb 08, 2015 6:25:29 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+INFORMATION: Ignoring inactive rule: temporal-composite-8:ranges
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ...done [0,3 sec].
+Adding annotator dcoref
