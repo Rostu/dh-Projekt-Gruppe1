@@ -1,6 +1,8 @@
 merge.rb ist ein Ruby Skript, zum zusammenfügen der geparsten chapter (chapterxx.xml) in die fertige XML Datei.
 
-Vorraussetzungen:
+*******************************
+------ Vorraussetzungen -------
+*******************************
 
 1.	Ruby in der Verion 1.9.2 oder 1.9.3
 
@@ -28,7 +30,10 @@ Vorraussetzungen:
 	Weitere Informationen:
 	http://www.nokogiri.org/tutorials/installing_nokogiri.html
 
--------- Verwendung ---------
+*******************************
+--------- Verwendung ----------
+*******************************
+
 
 1. In der console in den Ordner des Skripts navigieren
 2. SKript ausführen mit:

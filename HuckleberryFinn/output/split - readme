@@ -1,6 +1,9 @@
 ﻿split.rb ist ein Ruby Skript, zum extrahieren der einzelnen chapter Elemente aus einer XML Datei.
 
-Vorraussetzungen:
+*******************************
+------ Vorraussetzungen -------
+*******************************
+
 
 1.	Ruby in der Verion 1.9.2 oder 1.9.3
 
@@ -9,7 +12,7 @@ Vorraussetzungen:
 	Linux:
 	https://rvm.io/rvm/install
 	
-2.	Ruby Gems sind notwendig um die zusätzlich verwendedetn Bibliotheken zu laden (gems)
+2.	Ruby Gems sind notwendig um die zusätzlich verwendeten Bibliotheken zu laden (gems)
 	
 	Falls nicht in der Ruby Verion vorhanden:
 	
@@ -28,7 +31,11 @@ Vorraussetzungen:
 	Weitere Informationen:
 	http://www.nokogiri.org/tutorials/installing_nokogiri.html
 
--------- Verwendung ---------
+
+*******************************
+--------- Verwendung ----------
+*******************************
+
 
 1. In der Konsole in den Ordner des Skripts navigieren
 2. Skript ausführen mit:

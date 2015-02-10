@@ -3,20 +3,28 @@ Die buchtitel_zwischen.xml Datei entspricht im Aufbau schon der Endausgabe.
 Allerdings ist der inhalt der Kapitel noch nicht geparst
 
 
-Vorraussetzungen: 
+*******************************
+------ Vorraussetzungen -------
+*******************************
+
 Momentan kann nur die Lauffähigkeit unter Linux garantiert werden!
 Bei Testläufen mit Windows 7 hat sich gezeigt, dass die benötigte gem-library 'yomu' trotz Windows kompatibilität
 unter bestimmten Umständen Probleme macht.
 Daran wird noch gearbeitet, aber vorläufig kann aus diesem Grund keine Windows kompatibilität garantiert werden.
 
-1.	Ruby in der Verion 1.9.2 oder 1.9.3
+
+1.Ruby in der Verion 1.9.2 oder 1.9.3
 
 	Auf Windows:
 	http://rubyinstaller.org/
 	Linux:
 	https://rvm.io/rvm/install
 	
-2.	Ruby Gems sind notwendig um die zusätzlich verwendedetn Bibliotheken zu laden (gems)
+2. Java 8
+
+	http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
+3.Ruby Gems sind notwendig um die zusätzlich verwendedetn Bibliotheken zu laden (gems)
 	
 	Falls nicht in der Ruby Verion vorhanden:
 	
@@ -27,7 +35,7 @@ Daran wird noch gearbeitet, aber vorläufig kann aus diesem Grund keine Windows 
 	Ruby gems sind im Paket des Ruby installers vorhanden und werden mit installiert.
 	https://rubygems.org/pages/download
 
-3.	Die zusätzlich verwendeten Bibliotheken(gems)
+4.Die zusätzlich verwendeten Bibliotheken(gems)
 	
 	-- Nokogiri --
 	wird durch das script selbst installiert falls noch nicht vorhanden
@@ -42,17 +50,19 @@ Daran wird noch gearbeitet, aber vorläufig kann aus diesem Grund keine Windows 
 	https://github.com/Erol/yomu
 
 
--------- Verwendung ---------
+*******************************
+--------- Verwendung ----------
+*******************************
 
 1. In der console in den Ordner des scripts navigieren
 2. Script ausführen mit:
 
 	ruby mockingbird.rb
 
-Das Script benötigt die Argumente "-f" gefolgt von dem Dateinamen der Ausgangs-Datei (To_Kill_ a_ Mockingbird.pdf).
+Das Skript benötigt die Argumente "-f" gefolgt von dem Dateinamen der Ausgangs-Datei (To_Kill_ a_ Mockingbird.pdf).
 Sollte sich die Datei nicht im selben Ordner befinden, muss dem Dateinamen der Pfad voran gestellt werden.
 Diese wird geöffnet, bereinigt und in das Ausgabeformat gebracht.
-Das script speichert dann das Ergebnis in der Datei "mockingbird_zwischen.xml" im selben Ordner.
+Das Skript speichert dann das Ergebnis in der Datei "mockingbird_zwischen.xml" im selben Ordner.
 
 
 
