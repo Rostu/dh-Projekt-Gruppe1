@@ -51,6 +51,10 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	text = "<document title='HUCKLEBERRY FINN' author='Mark Twain'>\n<chapter>\n<paragraph>\n" + text + "\n</paragraph>\n</chapter>\n</document>"
 	altered_text = text.gsub!(/\s{4,}CHAPTER \w{1,}.\s{1,}/,"\n</paragraph>\n</chapter>\n<chapter>\n<paragraph>\n")
 	altered_text.gsub!("\r\n\r\n","\n</paragraph>\n<paragraph>\n")
+	altered_text.gsub!(/_\w+/){ Regexp.last_match[0].gsub("_",""); }
+	altered_text.gsub!(/\w+_/){Regexp.last_match[0].gsub("_",""); }
+	altered_text.gsub!(/\W_/){Regexp.last_match[0].gsub("_",""); }
+
 
 	#adding the id attribiute to the chapters tag
 	#konverting the string to a xml doc and check if well formed 

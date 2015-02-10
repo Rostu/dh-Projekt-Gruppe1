@@ -40,9 +40,9 @@ if ARGV.size == 2 && ARGV[0] == "-f"
 	puts "File opened and converted [#{Time.now.round(3) - beginningTime.round(3)} sec]"
 	#saves plain_text output from the pdf converter to txt file 
 	#was used to check the output while working on the file
-	#File.open($file[0..-5]+"_plain.txt", 'w') do |file|
-        #file.puts(text)
-        #end
+	File.open($file[0..-5]+"_plain.txt", 'w') do |file|
+        file.puts(text)
+        end
 
 	#clearing obvious text junk 
 	text.gsub!("Source URL: http://etext.virginia.edu/etcbin/toccer-\n","")
