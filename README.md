@@ -2,6 +2,8 @@
 
 Dieses Projekt enthällt die Ausgaben von Gruppe 1 sowie die Ruby Skripte, welche zum erstellen genutzt wurden.
 Der genutzte Parser(stanford) ist für dieses Repo zu groß, kann aber unter diesem link gefunden werden:
+https://www.dropbox.com/s/r1flwgstszfbdtj/CoreParser.zip?dl=0 
+
 
 # Vorraussetzungen
 
